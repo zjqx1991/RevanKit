@@ -27,3 +27,5 @@ RevanWang, zjqx1991@163.com
 ## License
 
 RevanKits is available under the MIT license. See the LICENSE file for more info.
+# RevanKit
+RevanKit收集的是项目开发中必要的分类、常量、网络工具类等等
