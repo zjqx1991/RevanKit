@@ -1,0 +1,2280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006EAC0FE44D746B2AFFAAAD607DBE15 /* RevanCacheTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9481EDCF29C7F6C3C5BCAA50FEECA046 /* RevanCacheTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00A0B14E0F0228E1C8F40565ACB8CD60 /* RevanAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DFA95284F907245341DC1337148E804 /* RevanAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BC01DB30E9F06B97D37F3DB007058B /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEBA9D8874351856B1D22E0488DFD6C /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03A655D7BF3907D80896C3D02DF5D75E /* CALayer+RevanLayerAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9747F31284CCCD7FDA6AE124381B886A /* CALayer+RevanLayerAimate.m */; };
+		06CF51D722D2C0E4D538293A08017D8F /* RevanUserParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 546BBC8E7E75B3F1DB767E0EF51BC1BE /* RevanUserParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06E45FA4ED53F93284097CE687E144DF /* RevanHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D126D728647B1AB3CA1C758EA1A29C90 /* RevanHttpManager.m */; };
+		076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4483AA0636AF43F68375EE960EE61F /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F99D2D4569DC2E96AC275FA8A0EEB72C /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09363A6021AE2BF890864611810E3AC5 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0446C8DF06519DC5E43B21A5D5F85A44 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A542CC6BE5B407101389910041850F4 /* RevanHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E19CF052A2FD5FE4A13BC9AAF860AB0 /* RevanHttpResponse.m */; };
+		0B9AA3F769E0DA1AA759BF2B77A747DD /* BaseImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A84734F58091B8021D24B5F4A837CDC /* BaseImage.xcassets */; };
+		0CEE0A920E4CE4DF3378E7290CFE0FAF /* RevanNoticeLocal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5B503A5760434E47ACD354F4C8E4F3 /* RevanNoticeLocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA64FA33E315CF119E6433717BB24B3 /* UIView+RevanView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC55B4878DF35A53F071F83F11BEB2AE /* UIView+RevanView.m */; };
+		0EBF8C6B80B02F3959D2B863147FD4FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A2766E6D8DCB8A0E7A07F861157301 /* SystemConfiguration.framework */; };
+		10AC9A32AB84A54527A1C4EBA9DA0722 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C7E8743CFD701BEB68E660811E52E3 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B068F660C42C9A39AA232C0447DF58 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F76710673C4934C4B612E36B38DC9B2 /* AFNetworking.framework */; };
+		14BDB8C51889C30D6CA2FF0D092BB7DE /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E384EB32ED7B93C6821C355773ADF0 /* MJPropertyType.m */; };
+		16BDE28F0178B7A54B17F6B9B01A15DA /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC383D7C8A42CBE15EC480FBCC226E5 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17757560802C5C81A7B450E977251C35 /* RevanConst.h in Headers */ = {isa = PBXBuildFile; fileRef = A12AFE02C4D3E2E7ADD11943A8F3A39F /* RevanConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17BEC93EF80D51673F24352A56CB5812 /* BaseMVCSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE63919206A95FF655AB9DAE32262E5A /* BaseMVCSource.bundle */; };
+		19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FC733AA6BA30219122F8243EEA1D46F0 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 30DEF36CFB224F66FA15ED050AEF8DFA /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D636193128F57FEBD8760F2D303B853 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2585CC1B38B6E3B8ABBC7DDCDEA9CB4E /* NSString+MJExtension.m */; };
+		1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A8009FC71BF2CCB45DA14F49BEF546 /* CoreGraphics.framework */; };
+		1F916D817255FF357CFD6B71903BBF1C /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A9BDF2DA8B8B6D09325E48A50CBDE6 /* MJExtension.framework */; };
+		27B482E9C5F3EB34714B6B8D6191E7E0 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC3C67C41DEF6626F1FCF4AD1C68F /* MJRefreshAutoFooter.m */; };
+		291AD1A768F8CE32764DE348D26AAB45 /* UIImage+RevanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D44802FF999595F0BDA458AAC0EB82 /* UIImage+RevanImage.m */; };
+		298AE1826F02157C2BE69769A026F704 /* RevanDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0AB2D357F787CB34B252BDEDAF22A6 /* RevanDateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6508A494E51427F9C5007F5E1CB58B /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1EAE615E0A9267F3EFED5A5DEAEF3E /* NSData+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C5A588FB15007D358E262D24059BE74 /* RevanDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 138562F432CFB01628B51A413B24BE0E /* RevanDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C5E4E511BD6C574D91B9EB169C4F0C6 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352524A2A99EFA9CEE2898BF3832850 /* NSObject+MJCoding.m */; };
+		2DE10588BB794C01C31422146C2E5442 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB556DF37794810DC7ACD38ACAC49E9 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F5048F1695755ADE8D1C620BB6059CC /* RevanDevicePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D3CEF885B17F564A0735808B5DF31C /* RevanDevicePermission.m */; };
+		31EC9577E65F7A96A2B7F9C967AA9C94 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E21CE964BE7BBBBFCCAC8173CB5D223A /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3277B35188738A7D0093C4A77FECDFE5 /* UIImage+RevanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFA105A781609C04EA081E9681A1A4 /* UIImage+RevanVC.m */; };
+		32EA7EFEE34A20596C8AE0E5FADABD81 /* NSString+RevanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF2148971D8B87BCADCD2511440DB4 /* NSString+RevanString.m */; };
+		33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4061C9803222D958DDB22BACF653A76E /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3722DFABC75D79F738516C37B7519FD1 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC938556FED3AEC790E8BB7B3CB0DBD /* MJRefreshAutoGifFooter.m */; };
+		386E43C990BABD2BE2718B21EA01A98F /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DCA8F65D670300A066D2DA0D407D3B /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2C338426B50B9E58EF20E5C0C6285B /* RevanLoadCurrentBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F77E431C0EECDDB6A5698DC62787D3 /* RevanLoadCurrentBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E33B5B4C0386BD86610CC2174B337C35 /* AFNetworkActivityIndicatorManager.m */; };
+		3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A498EDD0B17C3F152377E0811B33D233 /* UIProgressView+AFNetworking.m */; };
+		3F6AAB97851AFE28F1929415DD4BB718 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = ED373AE5DE58693B5D261D389D3E5190 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410156F7C13E9408C60F2A25AB05B679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CE88C9CC4C1E17472241820F577BBE /* Foundation.framework */; };
+		4255E5E881C51CB75A47EEFE04B270CC /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A33176172782DA55FBF5BB4BB92247CA /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42819969192568C83E0751D2E396FA14 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2359F66234E12D58D893DC881A46B0 /* NSObject+MJClass.m */; };
+		439E0707D283A1E28FF1C183BD0B227A /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AA1D0D0BEC8FC6AD358E1281323201 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43CEDEE5BFB83866D408FE06917FC3C0 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 153833EAD88D9D6AB89D08A6953719D2 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6447A9A067C910FD91E8FCF0743563F7 /* AFURLResponseSerialization.m */; };
+		48D267AC1EC1FD6C99E18CEA968EC057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CE88C9CC4C1E17472241820F577BBE /* Foundation.framework */; };
+		4C48030F5A364E361ED31A2E91068DC6 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE2A1221A6034C41780F13A1E4A502 /* NSData+AES256.m */; };
+		4CDD32847C4DFF32E120F87BCE488512 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CC547BB562299E8D80DBAFC302672B2E /* MJRefreshStateHeader.m */; };
+		4EC72D6C7F6175F658103AB0F6CF7487 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D07434C4C739F325C88916B050E8C /* MJRefreshAutoStateFooter.m */; };
+		4F59DF1D5D2CFE37C055EB51E9DD16A1 /* NSString+RevanHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDC83A2F4450B0AFF668B6DA898411 /* NSString+RevanHttp.m */; };
+		4FCF391B20687DD7492C2C80185DD6FA /* Pods-RevanKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134C494EFB2B5325B9A8319EC4C08858 /* Pods-RevanKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500E95B6B156AC527A884E4861AC138E /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C40CBE61D46A54F745B789E32F9AC8 /* NSBundle+MJRefresh.m */; };
+		5033024734C82F49985E857CE0CF1183 /* Pods-RevanKits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A197BC059EF1C2983653DC4F35E38 /* Pods-RevanKits_Tests-dummy.m */; };
+		53A0721D0BC5E8402FF725BEE5984B32 /* UIViewIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1DF82BBE86E9C6764A07ABEDB96CA4 /* UIViewIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E381DEAB554FB689092D7B113F4F7F /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		576EBB347E9329A93FE0EB921A4EA3A1 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 489F8048041A46D08977EED635163FE9 /* MJRefreshNormalHeader.m */; };
+		57DC52073043C7FCB7B075B784CF6E1A /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8CECD1BFF0405FFD26591E3AD5C16B /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D09FC06B3E3D8365711377998C87FC3 /* RevanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE35E858830656FE899F0765AAC2A63 /* RevanTableViewController.m */; };
+		5DFA85066C51844C81A22FC469C2EE05 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B57596047D2C72BF50AA0E47C8A3CF90 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E99D197383D0876632260B01E279774 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF71F813A3AEC76219D03FE77CF4709 /* MJRefreshComponent.m */; };
+		5EECF8D80AF9AF67BA0D135FC9AD0E38 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CDEE4525C2D36A110AC6AF93D24D29 /* MJRefreshBackGifFooter.m */; };
+		60BCDA762F8415152206EC351B4D0B9F /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 501AD340997A81E2ADB5D4761F506A83 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6176BA9D46E62249BA7E1D53382304F7 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D3270F1BBA12B8514A1346E5F2E6A9 /* MJRefresh.framework */; };
+		61A8725BF42D29FD57840416C827A722 /* RevanAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB68B1C685CD0DCF1E1AB8688D5604 /* RevanAlertTool.m */; };
+		62BFF64B8BED2FB3EA681AB321417EA3 /* RevanSystemInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECC8EAB71167F8EBA4B9A0023E080E5 /* RevanSystemInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 237220C4002BBEB86700A6BC42A54769 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		637F78DB3322AEAE2E7F8D92A9CBD0D6 /* RevanCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CB5D7C2C3A7342530A16385998DD4F /* RevanCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E48C9E1E3CE798271CAE4685DCB963F /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661610724A5F6E692FB74ADC854182B7 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC1FC9C57D157116602F7C58D74920A /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B535420F68E67573A7520DCE205CE2 /* AFImageDownloader.m */; };
+		671D2BD076D66FEE6EAD99CD02A59773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CE88C9CC4C1E17472241820F577BBE /* Foundation.framework */; };
+		6790BB834AFDDB2D7C638B4E60ED7104 /* UIScrollView+RevanScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C0F7C72892552EA36E5DB227475C5 /* UIScrollView+RevanScrollView.m */; };
+		68CC638A1496FB4FC0A08C0FF203B09A /* UIViewController+RevanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7F74EFCD10D031155FD9E4ECF75824 /* UIViewController+RevanVC.m */; };
+		68DFDE150C7DE9311A8CDB4A44282F59 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2957EB2C481E507C5E75381A0769D6E6 /* MJExtension-dummy.m */; };
+		6A507E7426311D7659BFA48A9260CEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CE88C9CC4C1E17472241820F577BBE /* Foundation.framework */; };
+		6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A518A60FD643512D56DA54E5F118A2 /* UIButton+AFNetworking.m */; };
+		6AE12F2BE6E02B5FD8CE827A10E8AB55 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E8CD1036F30754222C5D7E807F93494 /* MJRefresh.bundle */; };
+		6F26627BD9DF65942A11706E22D4F5E7 /* UIViewController+RevanVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE311DEAC2D1158E9CD06895C16044C /* UIViewController+RevanVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F338FCA1AC565C34D68250AB69FE285 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9793DA1F556F336A92BA1C1B90BEBB /* NSObject+MJKeyValue.m */; };
+		6FEDB21E34371E97896491A37896BE48 /* RevanLoadingInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D410CAC4CAB46FF6D50E864FF7E6FC8 /* RevanLoadingInfoView.m */; };
+		7348CC2CB9066FD9C4654EE9393467B3 /* RevanCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B06EA11C1CEE5450E0598F80ABEE5B9 /* RevanCacheTool.m */; };
+		73FD93FACA51C4671B26C7A0B24ED1D5 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B2D42F4768EC3F19E60564D8FE8194 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EB6A126362EB0AFA87B3B271A5CDB5 /* AFHTTPSessionManager.m */; };
+		77C1B2422A7B63D58ACBAF99DE710440 /* RevanSystemInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54A7BA74F4EEAB7180A8C7C6C78C13 /* RevanSystemInformation.m */; };
+		7C9C76E689C027467745A536CDE0EE2F /* RevanLoadCurrentBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4458D34C482C593AD200F1D360477D /* RevanLoadCurrentBundle.m */; };
+		7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD857A94B564C4687AD39809AA80B25 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E4EEDC6D16A4A82A622EDA8515443A /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD5BE45BE6AEF0885E90980BFB01ADA /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82DDC8879E623067CDE811C7265E223D /* RevanHttpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE742B1EB8C3EF2F25AB9A6495E44CD /* RevanHttpTask.m */; };
+		83D4DA0A0561BC26503600EA02F7FA0A /* UIBarButtonItem+AVT.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF0AF8F70617873F8007F090608A479 /* UIBarButtonItem+AVT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59C9FD7F3BD9165A9D513F93D0FDF6 /* UIRefreshControl+AFNetworking.m */; };
+		85E94A498739A788E700E8BA05B5972B /* RevanAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D2465948116013D1B9D77D43DFDD69CE /* RevanAppInfo.m */; };
+		8611D48A1E0D59E6B5F7DFC8FC6E3E82 /* UIScrollView+RevanScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CABBCEA199F3D2ADF31B6C71D20CFC3 /* UIScrollView+RevanScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4FCB993337EAE2F6C171469FA74F7 /* AFSecurityPolicy.m */; };
+		891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F2E7793D477AF6D7C7E1E3F723F2A7 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A82AE9EDFE28BD60BCA85B804E6D23 /* RevanHttpParameterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396FF372A5962B47D53B0048BD91038 /* RevanHttpParameterConfig.m */; };
+		8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A12F6289A5173BA055F0DD23132DC8 /* AFURLSessionManager.m */; };
+		8AD7A1C1B9CCC0123E2127D955A4723E /* Pods-RevanKits_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 511B51A08807201AB364CA8BF5642CCA /* Pods-RevanKits_Example-dummy.m */; };
+		8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF0A3AB1FF71F1968033676F7F5E45B /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C420A9815C0C9ABB870926CF9F42B9A /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A234518C7A857318C2B85DC9EA4924 /* NSObject+MJProperty.m */; };
+		8CD8E650D891C019637BEC903D4DFFF9 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B99EA86CC74FC8A8A380F5EDEA1D14C /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D63FD9257BAA17CD3E29EADF4A9F4E3 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C02FF7E1235B7E517A3EE9D74BA986FD /* UIScrollView+MJRefresh.m */; };
+		8E6A28985FE7E04C521E6799C981D9B6 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = A74FD0A0DBD07CD68A2DAF5E4A41881A /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90423B0A62677A78477C0AC200C690DC /* UIImage+RevanImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F84E5EA74CBFDC0A8D4472833BAB0337 /* UIImage+RevanImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		907D3CCA883E10B5FF5E991507F9BFB4 /* RevanHttpParameterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E03EBA66B2C1AD87ACD3E7AF86090AD9 /* RevanHttpParameterConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9230DB3D735A7F6E202EEB12671512F9 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E31C1CD37D9C5FF6C53338BF88ABA1FD /* MJRefreshFooter.m */; };
+		96E124AD7CE70EF37F721A4E02685657 /* RevanTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 819CA4306261EB6889C806F1720780B7 /* RevanTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996E111B666F4B9472401A953CB2E8A0 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 31AC0EAA34570EE40FBA280CBDCAEFA7 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8C51213882B458A3CC8A4FE33C9ED /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB6A36247069FED8CE1E8A70B8078B2 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D460798D0D0B14CF2FC532E205D094C9 /* MJRefresh-dummy.m */; };
+		9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 97745BA86FB3FBB6393935387727D453 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B74B910E437793530BBAF55F09F6393 /* RevanDevicePermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 578DF9EEEEA9709A4F4D656329BAC77D /* RevanDevicePermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CAA1CB258A750C8CB5CD0711C68A5AE /* RevanKits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0830E3E6E7CD7D2483E0C7E9C8E888A /* RevanKits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A2F210CA25DEF2434C0D9A2476A4C4 /* UIActivityIndicatorView+AFNetworking.m */; };
+		9E006EB407A26DD11CC2CAEB34E67D8B /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 563749BF241FBB3A25D064508704406C /* MJPropertyKey.m */; };
+		9E545607603CDE4089F91C59A377C140 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5A771401E771B716703D608B212F9F /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E6C84602924BF2068505CBD3C81365C /* RevanSingtom.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D11090970F9B62C0EDA5244C1AA1C16 /* RevanSingtom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FB3E4C11A4AC3328DB00AFB3B8053B2 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AC9A57A478D544F7F7EEAABE98EEF6 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C3DF8AED05A9B905AE114BF1CC7EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CE88C9CC4C1E17472241820F577BBE /* Foundation.framework */; };
+		A566A7E90340F3A321CECA526DA2FDB2 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DDE0A4BC0DA8C501F80D0F3CA446CF /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A56A9025CDC6ACF1A9F3F95BA288ADEE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3281EEF52FCC94AFD9FF97FC5CEF5C1 /* Security.framework */; };
+		A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E83DAA51E7A22F93CD406762037EBFE0 /* UIImageView+AFNetworking.m */; };
+		A6D00E3CB587FAF9C321AC7AE87EA50B /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FBC2F6E6F275B00E2B36AA80088096 /* MJFoundation.m */; };
+		A8DAEEB95D40A8CF94DBE2B8176E0346 /* RevanHttpENV.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BA5CFB3BF93B8949CB5C03582FD2D7 /* RevanHttpENV.m */; };
+		AA89B94C9CC7224D2B4CDEBB55BBCAE4 /* RevanAlertTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C46CE46FCB582C282D8FA83EFE8B5DAB /* RevanAlertTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB66F49F133FAE9BD9EAA9A29FAD75EE /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEFAD1A5B0862550E5B29C58AAC2C7F /* MJRefreshBackNormalFooter.m */; };
+		AFECA97AA0090421DFFC21C5BF6E8F75 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BAE3E853DAB09653DE4658B0933A31 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0C424B87C3E3EB3D2304C1FA5DA3404 /* RevanConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E1271EEA8292B7FF03ECC8459E01D1 /* RevanConst.m */; };
+		B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E311787A9C2D8103E25A25BF6D6446 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1B2A5D5EB8DAEC898663B5A1C2DFC2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CE88C9CC4C1E17472241820F577BBE /* Foundation.framework */; };
+		B20292439308665CB10E89D72D74BBB1 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2A7F92B770D515AA89DA986749E4F5 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B415F46A5638F090B1862FA2F6E158A9 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 821304C368B16E75762BD90180957DFF /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B80C778D399837420AA0DE14F226FBB9 /* RevanPageListDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FF936709EEEF4033B914EDA207E144F8 /* RevanPageListDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2CF1690EAD82707B813765C02AAC55 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA2360D291F44559925F8023B8E60F8F /* RevanNoticeLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = 035A13A4785F2F379252E9D1900EE368 /* RevanNoticeLocal.m */; };
+		BCE150CBED51B428AEB8F2F0683B7DF4 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CD8C436E66BB1F817B6A49BF7C012 /* MJExtensionConst.m */; };
+		BD8D03BB3C22551D795835DEE60978CA /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A9458EF7AFF913D358B5BF9917DA41 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE43DEACA009E9432DC795654B80F43B /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E47F15551FA656460DB0C756EAC6F376 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4BDF45506BD6C1D1C1A02F5FC36E57 /* UIViewIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = F60ECFB96448C080B868D33324AC38A9 /* UIViewIBInspectable.m */; };
+		C06B29940B23C653556A40AF4835A0F7 /* RevanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB268A74C06B8D2C6626FA0D4B703CE6 /* RevanViewController.m */; };
+		C0CFB5EBBA6EA229E940436055CFF398 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E4526653DB8E64FE4EDB1914508078 /* MJRefreshGifHeader.m */; };
+		C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163CF2A1B710E18DAC653D37E4D25769 /* MobileCoreServices.framework */; };
+		C11CD3314246419329D65ECC498663D2 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F23ADA22147EF3BDF2EAD3101256B48 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15E1F1E64EA3DCC7326D602737BFC10 /* RevanHttpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 02A716BD91A2A01F53979EC17FD882B6 /* RevanHttpTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3954E526C0B1373AE60A54A04372F0E /* UIBarButtonItem+AVT.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E599158B3DEAFA9ED1DCFF7A185CC5 /* UIBarButtonItem+AVT.m */; };
+		C526286BCA61171FD1283DEFB8236E3F /* RevanPageListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74605E9AECFC62B73DAFA6043F828790 /* RevanPageListDataModel.m */; };
+		C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DC0C583488E0BD34CCC939F2C86CE /* AFNetworking-dummy.m */; };
+		C72D2A5A0EF0C3F946A1AF18220DB327 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C863139D14DBE33504912A4D40F30AFB /* MJProperty.m */; };
+		C73699EB31859B125378778082A62E60 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD8CFD52486207AAD0BD972F60F5F64 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B13EBAAABE4785D71EE94386C54432 /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5FB762B57D74FAC3720467D3FE9E63 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F1EC153CB3FBB41FD04FDBE182CD5F /* UIWebView+AFNetworking.m */; };
+		CF285CCAB5F4A3794BBD2E4951C93848 /* RevanUserParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C1AE5C365E01DF0418F47BA29839B /* RevanUserParameters.m */; };
+		CF75BB5E95AF101D4028F344434967A9 /* RevanDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B08F10936FDEDEF82F5C8A72FDC9295 /* RevanDataModel.m */; };
+		D291925F0CAEBC063B12582E0CAA4132 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F102579FF1314AF1930C08076501B8 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3B440F155422ABCE41C3C018AC29853 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC885A0F3FF0B0F9AE5B3FB4D2A706D /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D7E5D28E3A69CDE00EBF8CB78B7642 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F8765B5F36394E81D763FCD8C663F /* MJRefreshAutoNormalFooter.m */; };
+		D421B24E71BA54745E518D5CFBCEDD09 /* RevanLoadingInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 896BD229DDCEC79966365C488691C800 /* RevanLoadingInfoView.xib */; };
+		D5766D75108821DEC1DD8C6CD5AAC06B /* RevanCategoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3489930BDBA51F08F86044FB2EDD2850 /* RevanCategoryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5C169039395DA323C675710954E884A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E60D7373DA816339023ECB337D41C6B /* AFAutoPurgingImageCache.m */; };
+		D6EC45FDC7F5B3917BCECD6270544311 /* RevanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D16D328B48A663EFD6BEFE169308A503 /* RevanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAAF74257D81A9D4231E0BD5D6A6526D /* RevanKits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69008555C0DADAD00E63515DF55303E8 /* RevanKits-dummy.m */; };
+		DEE3E21758E986E744A24F30DA41B878 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E24457DEFD680D51C583CC51639C9987 /* UIScrollView+MJExtension.m */; };
+		DF54FC530727BC6C118436C0249E5E3F /* UIView+RevanView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBB5E018F16C15D4D4643A6C783C99F /* UIView+RevanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E075507A7424EF2E6F1813E4A18ED37C /* UIImage+RevanVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3135F677AB0A292BB89BBDA869FAA3B4 /* UIImage+RevanVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E47B0424EEC9671514511303E424F0BA /* RevanCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4FD9FD90628F7C0D7BAA4635E6567 /* RevanCollectionViewController.m */; };
+		E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 893B327EFE34C021ADDDB23E24A67D17 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75BE8041D9C6207509DF929DDDA0609 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E625C31975C23C3381ECE286EF4D5759 /* MJRefreshBackFooter.m */; };
+		E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FCBB28B9AA7F596A211F292BA3964ED0 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E93E1A13C3E99B3E002A6AF0852BE2A7 /* RevanBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 158BDA9F12E676EA6F243AF578BEE32A /* RevanBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9974436AB9EC73E264CDE32B8F9B164 /* Pods-RevanKits_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD52D6C026ED6C9553DC4D97980AEE7 /* Pods-RevanKits_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1784EBDB81481F2E5262ECC046BA71 /* RevanListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBECBA13AED5297D74AB496F05542D /* RevanListDataModel.m */; };
+		EA8F03E9D188A9086696DB8B093FAA1C /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E491C8A3DA307E65461F4F0E6154F923 /* MJRefreshHeader.m */; };
+		EA9DEF70186EAC909E2ACFA21DC4746F /* NSString+RevanHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4878D2883AA638B6EAADE95C72B3E0 /* NSString+RevanHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB20F8E693B05B08F6F381A77EA8E9A /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A859C3CAB52484E84EE8D0DB961F2 /* MJRefreshBackStateFooter.m */; };
+		ED16014D618A3296225E61FC3D8F6299 /* RevanListDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B00BC49DFA0B0503DBED2F532BAB56 /* RevanListDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F5FFAB102C7850D775461801E54901 /* AFNetworkReachabilityManager.m */; };
+		F00D122BB664A66DE3FB585DC93BE2D3 /* RevanLoadingInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA78D596C37D377D8012009E1CE5AC77 /* RevanLoadingInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE251477D90632506C8BDCB6C71B5A4 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F14A2055E9FB12D9A53E1DA77BC1FC08 /* CALayer+RevanLayerAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A7DF0C3B87D57FBF347B2F751E232D /* CALayer+RevanLayerAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19CB279DC4268A42BFDB5F25880A91A /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E82DA6F0D033A0E490A762E3A5B8D5 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F298079FB006487DF911148444366561 /* NSString+RevanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B9065A789AA81264600D7622639F50 /* NSString+RevanString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41F0B0CF6A19E883ECBCB06E5E240F4 /* RevanHttpENV.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A234AE947A78C560907D68BA3CD940 /* RevanHttpENV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F485AB0791E4DF3D5D7C73E5CFBC8691 /* RevanDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAD38CD59E005FBBE07FA998FBB78BF /* RevanDateFormatter.m */; };
+		F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 074BD361A3E93DB806830AD84DCC6634 /* AFURLRequestSerialization.m */; };
+		F86C72DE8A45D0C61B5931A73C35A180 /* RevanHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD16844D2CF44269F974124C35E2B80 /* RevanHttpManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F97015DEAEBAE1A5D6DEA6044BC724FD /* RevanHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EF27D1DC25DA4BC21D363B457CF54061 /* RevanHttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADC4D249D490A2C52E0D0F95F8A098F /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F664FCD3687528977BD14A2129DD96D /* UIView+MJExtension.m */; };
+		FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FDE1A0DF584FF3A509A5B8CCEFEAEF9 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFE11CC03CCDF7E1887E287E90C98C88 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F62D7787CA89FB59830E3FADD2F01F8E /* MJRefreshConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0001C1CCD67EEA143FAC0C34323D5ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C6C994E1CF7A6C65D6EE4E4D8C91F4;
+			remoteInfo = MJExtension;
+		};
+		1CCF37520C54B4A86B7100CC60F24215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C76AC070DB65255C67667F7876EE238;
+			remoteInfo = MJRefresh;
+		};
+		35E76A5B5968C5954FA52487CAA4B813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF160BF4E9F6EE312A9C8967B5A3C071;
+			remoteInfo = AFNetworking;
+		};
+		6E6B864E52A1A3FE4407118999EF6C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC0A2745F7F94F57BD8E34A83193A38;
+			remoteInfo = "RevanKits-BaseMVCSource";
+		};
+		9A0F39CBE0AE98C56ADD9876216FDAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C596DEC2E555FC1DD0392DABDDF476F;
+			remoteInfo = "Pods-RevanKits_Example";
+		};
+		B163629F3FF663664437051737B2C91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C76AC070DB65255C67667F7876EE238;
+			remoteInfo = MJRefresh;
+		};
+		E7601C4B613307690193A863295BC4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF160BF4E9F6EE312A9C8967B5A3C071;
+			remoteInfo = AFNetworking;
+		};
+		E7EE1AC6700390FE8FE1F12C8B5A2A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0533377230A75B92054359D8799B290;
+			remoteInfo = RevanKits;
+		};
+		FA96BA066BE735DDF2A3873706F90C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C6C994E1CF7A6C65D6EE4E4D8C91F4;
+			remoteInfo = MJExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FBC2F6E6F275B00E2B36AA80088096 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		02A716BD91A2A01F53979EC17FD882B6 /* RevanHttpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanHttpTask.h; path = RevanKits/Classes/Network/RevanHttpTask.h; sourceTree = "<group>"; };
+		035A13A4785F2F379252E9D1900EE368 /* RevanNoticeLocal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanNoticeLocal.m; path = RevanKits/Classes/Tool/RevanNoticeLocal.m; sourceTree = "<group>"; };
+		03C29CFAF0F00EE545590D23CC8CAF50 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
+		0446C8DF06519DC5E43B21A5D5F85A44 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		04A8C51213882B458A3CC8A4FE33C9ED /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		05E384EB32ED7B93C6821C355773ADF0 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		074BD361A3E93DB806830AD84DCC6634 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		07D3270F1BBA12B8514A1346E5F2E6A9 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A518A60FD643512D56DA54E5F118A2 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		0AD52D6C026ED6C9553DC4D97980AEE7 /* Pods-RevanKits_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RevanKits_Example-umbrella.h"; sourceTree = "<group>"; };
+		0B3C0F7C72892552EA36E5DB227475C5 /* UIScrollView+RevanScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+RevanScrollView.m"; path = "RevanKits/Classes/Category/UIScrollView+RevanScrollView.m"; sourceTree = "<group>"; };
+		0BCACC6C4B2D9174B06F73338141DE06 /* Pods-RevanKits_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanKits_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BD10DD0D352F5432F70E41A2968BB73 /* RevanKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevanKits.framework; path = RevanKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9793DA1F556F336A92BA1C1B90BEBB /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		0CABBCEA199F3D2ADF31B6C71D20CFC3 /* UIScrollView+RevanScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+RevanScrollView.h"; path = "RevanKits/Classes/Category/UIScrollView+RevanScrollView.h"; sourceTree = "<group>"; };
+		0CBB5E018F16C15D4D4643A6C783C99F /* UIView+RevanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RevanView.h"; path = "RevanKits/Classes/Category/UIView+RevanView.h"; sourceTree = "<group>"; };
+		0D8CECD1BFF0405FFD26591E3AD5C16B /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		0DFA95284F907245341DC1337148E804 /* RevanAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanAppInfo.h; path = RevanKits/Classes/Network/RevanAppInfo.h; sourceTree = "<group>"; };
+		10B535420F68E67573A7520DCE205CE2 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		10BF5E7BD694BC7A8DCED2B4C09CEA64 /* RevanKits-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RevanKits-Info.plist"; sourceTree = "<group>"; };
+		134C494EFB2B5325B9A8319EC4C08858 /* Pods-RevanKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RevanKits_Tests-umbrella.h"; sourceTree = "<group>"; };
+		138562F432CFB01628B51A413B24BE0E /* RevanDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanDataModel.h; sourceTree = "<group>"; };
+		153833EAD88D9D6AB89D08A6953719D2 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		158BDA9F12E676EA6F243AF578BEE32A /* RevanBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanBase.h; path = RevanKits/Classes/Base/RevanBase.h; sourceTree = "<group>"; };
+		15E599158B3DEAFA9ED1DCFF7A185CC5 /* UIBarButtonItem+AVT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+AVT.m"; sourceTree = "<group>"; };
+		16084855E968149177F7660B148272FF /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		163CF2A1B710E18DAC653D37E4D25769 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		18F94A147A6BB6D6DF7714C3F812704A /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		1A2A7F92B770D515AA89DA986749E4F5 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
+		1B1DF82BBE86E9C6764A07ABEDB96CA4 /* UIViewIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIViewIBInspectable.h; path = RevanKits/Classes/Base/UIViewIBInspectable.h; sourceTree = "<group>"; };
+		1CC383D7C8A42CBE15EC480FBCC226E5 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		1E5B55B7770175E41253C838A9974724 /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		1EE311DEAC2D1158E9CD06895C16044C /* UIViewController+RevanVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RevanVC.h"; sourceTree = "<group>"; };
+		1FC885A0F3FF0B0F9AE5B3FB4D2A706D /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		20DDE0A4BC0DA8C501F80D0F3CA446CF /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		237220C4002BBEB86700A6BC42A54769 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		24C6184242269142FDDE195C785F529B /* Pods-RevanKits_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RevanKits_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24E311787A9C2D8103E25A25BF6D6446 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		24EFB6D73305695836D0CF2470F6A7BD /* Pods-RevanKits_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanKits_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2585CC1B38B6E3B8ABBC7DDCDEA9CB4E /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		27E82DA6F0D033A0E490A762E3A5B8D5 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
+		2957EB2C481E507C5E75381A0769D6E6 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		29A234518C7A857318C2B85DC9EA4924 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		2A2CF1690EAD82707B813765C02AAC55 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		2D5FB762B57D74FAC3720467D3FE9E63 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		30DEF36CFB224F66FA15ED050AEF8DFA /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		3135F677AB0A292BB89BBDA869FAA3B4 /* UIImage+RevanVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+RevanVC.h"; sourceTree = "<group>"; };
+		31AC0EAA34570EE40FBA280CBDCAEFA7 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		33AC9A57A478D544F7F7EEAABE98EEF6 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		3489930BDBA51F08F86044FB2EDD2850 /* RevanCategoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanCategoryHeader.h; path = RevanKits/Classes/Category/RevanCategoryHeader.h; sourceTree = "<group>"; };
+		35B9065A789AA81264600D7622639F50 /* NSString+RevanString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RevanString.h"; path = "RevanKits/Classes/Category/NSString+RevanString.h"; sourceTree = "<group>"; };
+		35CBECBA13AED5297D74AB496F05542D /* RevanListDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanListDataModel.m; sourceTree = "<group>"; };
+		35CE88C9CC4C1E17472241820F577BBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35F77E431C0EECDDB6A5698DC62787D3 /* RevanLoadCurrentBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanLoadCurrentBundle.h; path = RevanKits/Classes/Tool/RevanLoadCurrentBundle.h; sourceTree = "<group>"; };
+		3AF0A3AB1FF71F1968033676F7F5E45B /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		3B06EA11C1CEE5450E0598F80ABEE5B9 /* RevanCacheTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanCacheTool.m; path = RevanKits/Classes/Tool/RevanCacheTool.m; sourceTree = "<group>"; };
+		3B4DC0C583488E0BD34CCC939F2C86CE /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		3B5CD8C436E66BB1F817B6A49BF7C012 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		3EAD38CD59E005FBBE07FA998FBB78BF /* RevanDateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanDateFormatter.m; path = RevanKits/Classes/Tool/RevanDateFormatter.m; sourceTree = "<group>"; };
+		3F664FCD3687528977BD14A2129DD96D /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		4061C9803222D958DDB22BACF653A76E /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		4443A441D2821C29A3A0B16673B432F1 /* Pods-RevanKits_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RevanKits_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		489F8048041A46D08977EED635163FE9 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		48F102579FF1314AF1930C08076501B8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		4B9A00B222AA6351B9B9CE2A8F2087CD /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFDC83A2F4450B0AFF668B6DA898411 /* NSString+RevanHttp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RevanHttp.m"; path = "RevanKits/Classes/Network/NSString+RevanHttp.m"; sourceTree = "<group>"; };
+		4CE35E858830656FE899F0765AAC2A63 /* RevanTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanTableViewController.m; sourceTree = "<group>"; };
+		4E60D7373DA816339023ECB337D41C6B /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		501AD340997A81E2ADB5D4761F506A83 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		511B51A08807201AB364CA8BF5642CCA /* Pods-RevanKits_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RevanKits_Example-dummy.m"; sourceTree = "<group>"; };
+		51AA1D0D0BEC8FC6AD358E1281323201 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		52A2766E6D8DCB8A0E7A07F861157301 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		546BBC8E7E75B3F1DB767E0EF51BC1BE /* RevanUserParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanUserParameters.h; path = RevanKits/Classes/Network/RevanUserParameters.h; sourceTree = "<group>"; };
+		563749BF241FBB3A25D064508704406C /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		578DF9EEEEA9709A4F4D656329BAC77D /* RevanDevicePermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanDevicePermission.h; path = RevanKits/Classes/Tool/RevanDevicePermission.h; sourceTree = "<group>"; };
+		57A9BDF2DA8B8B6D09325E48A50CBDE6 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B08F10936FDEDEF82F5C8A72FDC9295 /* RevanDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanDataModel.m; sourceTree = "<group>"; };
+		5B4458D34C482C593AD200F1D360477D /* RevanLoadCurrentBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanLoadCurrentBundle.m; path = RevanKits/Classes/Tool/RevanLoadCurrentBundle.m; sourceTree = "<group>"; };
+		5B4483AA0636AF43F68375EE960EE61F /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		5E7F74EFCD10D031155FD9E4ECF75824 /* UIViewController+RevanVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RevanVC.m"; sourceTree = "<group>"; };
+		60A4FD9FD90628F7C0D7BAA4635E6567 /* RevanCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanCollectionViewController.m; sourceTree = "<group>"; };
+		6230438E3A2BC56524FD0B8ECC1F1D76 /* Pods-RevanKits_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanKits_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6230B497E425DBC96C45702218C7BECB /* ResourceBundle-BaseMVCSource-RevanKits-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BaseMVCSource-RevanKits-Info.plist"; sourceTree = "<group>"; };
+		6352524A2A99EFA9CEE2898BF3832850 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		6447A9A067C910FD91E8FCF0743563F7 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		684A859C3CAB52484E84EE8D0DB961F2 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		69008555C0DADAD00E63515DF55303E8 /* RevanKits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevanKits-dummy.m"; sourceTree = "<group>"; };
+		6B59C9FD7F3BD9165A9D513F93D0FDF6 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		6C285403150BD3C25EB6AA09BAD51762 /* Pods-RevanKits_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RevanKits_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6D11090970F9B62C0EDA5244C1AA1C16 /* RevanSingtom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanSingtom.h; path = RevanKits/Classes/Base/RevanSingtom.h; sourceTree = "<group>"; };
+		6D82F6E96D108CEF14AA8175E394D7DB /* Pods_RevanKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RevanKits_Tests.framework; path = "Pods-RevanKits_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3325E148709F646508DBFB1934E4C2 /* Pods-RevanKits_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RevanKits_Example.modulemap"; sourceTree = "<group>"; };
+		6E48C9E1E3CE798271CAE4685DCB963F /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		6E8CD1036F30754222C5D7E807F93494 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		6ECC8EAB71167F8EBA4B9A0023E080E5 /* RevanSystemInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanSystemInformation.h; path = RevanKits/Classes/Tool/RevanSystemInformation.h; sourceTree = "<group>"; };
+		6F23ADA22147EF3BDF2EAD3101256B48 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		6F76710673C4934C4B612E36B38DC9B2 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBE2A1221A6034C41780F13A1E4A502 /* NSData+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES256.m"; path = "RevanKits/Classes/Category/NSData+AES256.m"; sourceTree = "<group>"; };
+		6FDE1A0DF584FF3A509A5B8CCEFEAEF9 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		74605E9AECFC62B73DAFA6043F828790 /* RevanPageListDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanPageListDataModel.m; sourceTree = "<group>"; };
+		78BAE3E853DAB09653DE4658B0933A31 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		79A8009FC71BF2CCB45DA14F49BEF546 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		79CAC3C67C41DEF6626F1FCF4AD1C68F /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		7AA6607E3799F67E9A58E06E982E8D86 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6C1AE5C365E01DF0418F47BA29839B /* RevanUserParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanUserParameters.m; path = RevanKits/Classes/Network/RevanUserParameters.m; sourceTree = "<group>"; };
+		7B99EA86CC74FC8A8A380F5EDEA1D14C /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		7CD16844D2CF44269F974124C35E2B80 /* RevanHttpManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanHttpManager.h; path = RevanKits/Classes/Network/RevanHttpManager.h; sourceTree = "<group>"; };
+		7CF0AF8F70617873F8007F090608A479 /* UIBarButtonItem+AVT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+AVT.h"; sourceTree = "<group>"; };
+		7D410CAC4CAB46FF6D50E864FF7E6FC8 /* RevanLoadingInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanLoadingInfoView.m; sourceTree = "<group>"; };
+		7D9EF737F213556B7F5A8A38C519909E /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD8CFD52486207AAD0BD972F60F5F64 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		80DFE60586E50CA7AFBCEBDBCA616829 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		819CA4306261EB6889C806F1720780B7 /* RevanTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanTableViewController.h; sourceTree = "<group>"; };
+		81E1271EEA8292B7FF03ECC8459E01D1 /* RevanConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanConst.m; path = RevanKits/Classes/Base/RevanConst.m; sourceTree = "<group>"; };
+		821304C368B16E75762BD90180957DFF /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		82EF0C0D7B17E26CB1E481C8DD2EAA36 /* Pods-RevanKits_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanKits_Tests-Info.plist"; sourceTree = "<group>"; };
+		8396FF372A5962B47D53B0048BD91038 /* RevanHttpParameterConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanHttpParameterConfig.m; path = RevanKits/Classes/Network/RevanHttpParameterConfig.m; sourceTree = "<group>"; };
+		83A7DF0C3B87D57FBF347B2F751E232D /* CALayer+RevanLayerAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+RevanLayerAimate.h"; path = "RevanKits/Classes/Category/CALayer+RevanLayerAimate.h"; sourceTree = "<group>"; };
+		84A9458EF7AFF913D358B5BF9917DA41 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		893B327EFE34C021ADDDB23E24A67D17 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		896BD229DDCEC79966365C488691C800 /* RevanLoadingInfoView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RevanLoadingInfoView.xib; sourceTree = "<group>"; };
+		8A84734F58091B8021D24B5F4A837CDC /* BaseImage.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = BaseImage.xcassets; sourceTree = "<group>"; };
+		8ABF2148971D8B87BCADCD2511440DB4 /* NSString+RevanString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RevanString.m"; path = "RevanKits/Classes/Category/NSString+RevanString.m"; sourceTree = "<group>"; };
+		8AE251477D90632506C8BDCB6C71B5A4 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		8CEBA9D8874351856B1D22E0488DFD6C /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		8CF05105575030C3E6739F4B7B119035 /* RevanKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RevanKits.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E19CF052A2FD5FE4A13BC9AAF860AB0 /* RevanHttpResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanHttpResponse.m; path = RevanKits/Classes/Network/RevanHttpResponse.m; sourceTree = "<group>"; };
+		8E484C57735BB305443B0BE4CD0245CF /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		90BA5CFB3BF93B8949CB5C03582FD2D7 /* RevanHttpENV.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanHttpENV.m; path = RevanKits/Classes/Network/RevanHttpENV.m; sourceTree = "<group>"; };
+		91F5FFAB102C7850D775461801E54901 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		92F3307A0EB3AFE21969298F0A4A7BB2 /* Pods-RevanKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9481EDCF29C7F6C3C5BCAA50FEECA046 /* RevanCacheTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanCacheTool.h; path = RevanKits/Classes/Tool/RevanCacheTool.h; sourceTree = "<group>"; };
+		96F2E7793D477AF6D7C7E1E3F723F2A7 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9747F31284CCCD7FDA6AE124381B886A /* CALayer+RevanLayerAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+RevanLayerAimate.m"; path = "RevanKits/Classes/Category/CALayer+RevanLayerAimate.m"; sourceTree = "<group>"; };
+		97745BA86FB3FBB6393935387727D453 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		9933D69CA788BF052ADFBF1541108A53 /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
+		9B53718D3690D3ED876DA6456191F771 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		9BB556DF37794810DC7ACD38ACAC49E9 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		9C41C2D97D86F4B5647EE5EA18A34031 /* Pods_RevanKits_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RevanKits_Example.framework; path = "Pods-RevanKits_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0309EBD8C24F72301B09A873A107B07 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		A0830E3E6E7CD7D2483E0C7E9C8E888A /* RevanKits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevanKits-umbrella.h"; sourceTree = "<group>"; };
+		A0E381DEAB554FB689092D7B113F4F7F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A12AFE02C4D3E2E7ADD11943A8F3A39F /* RevanConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanConst.h; path = RevanKits/Classes/Base/RevanConst.h; sourceTree = "<group>"; };
+		A18A197BC059EF1C2983653DC4F35E38 /* Pods-RevanKits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RevanKits_Tests-dummy.m"; sourceTree = "<group>"; };
+		A2A12F6289A5173BA055F0DD23132DC8 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		A33176172782DA55FBF5BB4BB92247CA /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		A498EDD0B17C3F152377E0811B33D233 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		A69506798F3CAE5C120FE09986F768BD /* RevanKits.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevanKits.xcconfig; sourceTree = "<group>"; };
+		A74FD0A0DBD07CD68A2DAF5E4A41881A /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		ABFB68B1C685CD0DCF1E1AB8688D5604 /* RevanAlertTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanAlertTool.m; path = RevanKits/Classes/Tool/RevanAlertTool.m; sourceTree = "<group>"; };
+		AE54A7BA74F4EEAB7180A8C7C6C78C13 /* RevanSystemInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanSystemInformation.m; path = RevanKits/Classes/Tool/RevanSystemInformation.m; sourceTree = "<group>"; };
+		AE63919206A95FF655AB9DAE32262E5A /* BaseMVCSource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BaseMVCSource.bundle; path = "RevanKits-BaseMVCSource.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F1EC153CB3FBB41FD04FDBE182CD5F /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		B3D3CEF885B17F564A0735808B5DF31C /* RevanDevicePermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanDevicePermission.m; path = RevanKits/Classes/Tool/RevanDevicePermission.m; sourceTree = "<group>"; };
+		B3D44802FF999595F0BDA458AAC0EB82 /* UIImage+RevanImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RevanImage.m"; path = "RevanKits/Classes/Category/UIImage+RevanImage.m"; sourceTree = "<group>"; };
+		B57596047D2C72BF50AA0E47C8A3CF90 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		B6E4526653DB8E64FE4EDB1914508078 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		B9B00BC49DFA0B0503DBED2F532BAB56 /* RevanListDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanListDataModel.h; sourceTree = "<group>"; };
+		BB5A771401E771B716703D608B212F9F /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		BB8C7A8BE9AEB04E5748EB92BF49E47E /* Pods-RevanKits_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanKits_Example-Info.plist"; sourceTree = "<group>"; };
+		BBD5BE45BE6AEF0885E90980BFB01ADA /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		BC55B4878DF35A53F071F83F11BEB2AE /* UIView+RevanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RevanView.m"; path = "RevanKits/Classes/Category/UIView+RevanView.m"; sourceTree = "<group>"; };
+		BDC1FC9C57D157116602F7C58D74920A /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		C02FF7E1235B7E517A3EE9D74BA986FD /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		C1C40CBE61D46A54F745B789E32F9AC8 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		C2A234AE947A78C560907D68BA3CD940 /* RevanHttpENV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanHttpENV.h; path = RevanKits/Classes/Network/RevanHttpENV.h; sourceTree = "<group>"; };
+		C2C7E8743CFD701BEB68E660811E52E3 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		C46CE46FCB582C282D8FA83EFE8B5DAB /* RevanAlertTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanAlertTool.h; path = RevanKits/Classes/Tool/RevanAlertTool.h; sourceTree = "<group>"; };
+		C4B8386761856C0B8412A309EEEA7E66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C4DFA105A781609C04EA081E9681A1A4 /* UIImage+RevanVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RevanVC.m"; sourceTree = "<group>"; };
+		C6CDEE4525C2D36A110AC6AF93D24D29 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		C863139D14DBE33504912A4D40F30AFB /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		CC547BB562299E8D80DBAFC302672B2E /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		CD0AB2D357F787CB34B252BDEDAF22A6 /* RevanDateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanDateFormatter.h; path = RevanKits/Classes/Tool/RevanDateFormatter.h; sourceTree = "<group>"; };
+		CE1EAE615E0A9267F3EFED5A5DEAEF3E /* NSData+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AES256.h"; path = "RevanKits/Classes/Category/NSData+AES256.h"; sourceTree = "<group>"; };
+		D126D728647B1AB3CA1C758EA1A29C90 /* RevanHttpManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanHttpManager.m; path = RevanKits/Classes/Network/RevanHttpManager.m; sourceTree = "<group>"; };
+		D15F8765B5F36394E81D763FCD8C663F /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		D16D328B48A663EFD6BEFE169308A503 /* RevanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanViewController.h; sourceTree = "<group>"; };
+		D1DCA8F65D670300A066D2DA0D407D3B /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		D2465948116013D1B9D77D43DFDD69CE /* RevanAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanAppInfo.m; path = RevanKits/Classes/Network/RevanAppInfo.m; sourceTree = "<group>"; };
+		D2B2D42F4768EC3F19E60564D8FE8194 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		D3281EEF52FCC94AFD9FF97FC5CEF5C1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D460798D0D0B14CF2FC532E205D094C9 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		DA4483DC5F7A64111AFDBEB7870EC043 /* RevanKits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevanKits-prefix.pch"; sourceTree = "<group>"; };
+		DA4878D2883AA638B6EAADE95C72B3E0 /* NSString+RevanHttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RevanHttp.h"; path = "RevanKits/Classes/Network/NSString+RevanHttp.h"; sourceTree = "<group>"; };
+		DA5510827CB02E42F7B7C103E21A848E /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		DAD857A94B564C4687AD39809AA80B25 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		DAEFAD1A5B0862550E5B29C58AAC2C7F /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		DAF71F813A3AEC76219D03FE77CF4709 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		DCE742B1EB8C3EF2F25AB9A6495E44CD /* RevanHttpTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RevanHttpTask.m; path = RevanKits/Classes/Network/RevanHttpTask.m; sourceTree = "<group>"; };
+		DD5B503A5760434E47ACD354F4C8E4F3 /* RevanNoticeLocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanNoticeLocal.h; path = RevanKits/Classes/Tool/RevanNoticeLocal.h; sourceTree = "<group>"; };
+		E03EBA66B2C1AD87ACD3E7AF86090AD9 /* RevanHttpParameterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanHttpParameterConfig.h; path = RevanKits/Classes/Network/RevanHttpParameterConfig.h; sourceTree = "<group>"; };
+		E0CB5D7C2C3A7342530A16385998DD4F /* RevanCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanCollectionViewController.h; sourceTree = "<group>"; };
+		E1EB6A126362EB0AFA87B3B271A5CDB5 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		E21CE964BE7BBBBFCCAC8173CB5D223A /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		E24457DEFD680D51C583CC51639C9987 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		E31C1CD37D9C5FF6C53338BF88ABA1FD /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		E33B5B4C0386BD86610CC2174B337C35 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		E47F15551FA656460DB0C756EAC6F376 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		E491C8A3DA307E65461F4F0E6154F923 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		E538A0A9BC1EBC8887030EF064E69D2C /* Pods-RevanKits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanKits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5AAD75563C9889F9FF3C5EE7E82A41C /* Pods-RevanKits_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RevanKits_Tests.modulemap"; sourceTree = "<group>"; };
+		E625C31975C23C3381ECE286EF4D5759 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		E82D07434C4C739F325C88916B050E8C /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		E83DAA51E7A22F93CD406762037EBFE0 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		EAD4FCB993337EAE2F6C171469FA74F7 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EB2B49A271C5F8956D59CA1D1FB41B19 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		ECA2A4C393F63FBF0FC1BB6ED17A9A20 /* Pods-RevanKits_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanKits_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED373AE5DE58693B5D261D389D3E5190 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		EE4AE64787A65756610102F5E9665072 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		EE6938EB61192DBC729CCC4A6A5DF45B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EF27D1DC25DA4BC21D363B457CF54061 /* RevanHttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevanHttpResponse.h; path = RevanKits/Classes/Network/RevanHttpResponse.h; sourceTree = "<group>"; };
+		EFC938556FED3AEC790E8BB7B3CB0DBD /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		F1A2F210CA25DEF2434C0D9A2476A4C4 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		F4953319C937E1EBCFCAEE66A864B4E1 /* RevanKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevanKits.modulemap; sourceTree = "<group>"; };
+		F60ECFB96448C080B868D33324AC38A9 /* UIViewIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIViewIBInspectable.m; path = RevanKits/Classes/Base/UIViewIBInspectable.m; sourceTree = "<group>"; };
+		F62D7787CA89FB59830E3FADD2F01F8E /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		F84E5EA74CBFDC0A8D4472833BAB0337 /* UIImage+RevanImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RevanImage.h"; path = "RevanKits/Classes/Category/UIImage+RevanImage.h"; sourceTree = "<group>"; };
+		F99D2D4569DC2E96AC275FA8A0EEB72C /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		FA78D596C37D377D8012009E1CE5AC77 /* RevanLoadingInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanLoadingInfoView.h; sourceTree = "<group>"; };
+		FB268A74C06B8D2C6626FA0D4B703CE6 /* RevanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanViewController.m; sourceTree = "<group>"; };
+		FC733AA6BA30219122F8243EEA1D46F0 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		FCBB28B9AA7F596A211F292BA3964ED0 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		FF2359F66234E12D58D893DC881A46B0 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		FF936709EEEF4033B914EDA207E144F8 /* RevanPageListDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanPageListDataModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4192E78EBF6DA475964E0BF8822B32E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B2A5D5EB8DAEC898663B5A1C2DFC2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3034A4C13764872950F138ACC03EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B068F660C42C9A39AA232C0447DF58 /* AFNetworking.framework in Frameworks */,
+				410156F7C13E9408C60F2A25AB05B679 /* Foundation.framework in Frameworks */,
+				1F916D817255FF357CFD6B71903BBF1C /* MJExtension.framework in Frameworks */,
+				6176BA9D46E62249BA7E1D53382304F7 /* MJRefresh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BABBDFDC62480779099DBB5463C4BE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE59E28961E719D41451F086E3C98F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A507E7426311D7659BFA48A9260CEDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FDE96071E504FAC26DCA29FCA6C55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671D2BD076D66FEE6EAD99CD02A59773 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5875B8207877568A03B9BBFF364FA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D267AC1EC1FD6C99E18CEA968EC057 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8435A689BD825A0D545C2D74D0F932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */,
+				A1C3DF8AED05A9B905AE114BF1CC7EBB /* Foundation.framework in Frameworks */,
+				C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */,
+				A56A9025CDC6ACF1A9F3F95BA288ADEE /* Security.framework in Frameworks */,
+				0EBF8C6B80B02F3959D2B863147FD4FB /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E06847737CEBF2E47E545E4277CA930 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				83A7DF0C3B87D57FBF347B2F751E232D /* CALayer+RevanLayerAimate.h */,
+				9747F31284CCCD7FDA6AE124381B886A /* CALayer+RevanLayerAimate.m */,
+				CE1EAE615E0A9267F3EFED5A5DEAEF3E /* NSData+AES256.h */,
+				6FBE2A1221A6034C41780F13A1E4A502 /* NSData+AES256.m */,
+				35B9065A789AA81264600D7622639F50 /* NSString+RevanString.h */,
+				8ABF2148971D8B87BCADCD2511440DB4 /* NSString+RevanString.m */,
+				3489930BDBA51F08F86044FB2EDD2850 /* RevanCategoryHeader.h */,
+				F84E5EA74CBFDC0A8D4472833BAB0337 /* UIImage+RevanImage.h */,
+				B3D44802FF999595F0BDA458AAC0EB82 /* UIImage+RevanImage.m */,
+				0CABBCEA199F3D2ADF31B6C71D20CFC3 /* UIScrollView+RevanScrollView.h */,
+				0B3C0F7C72892552EA36E5DB227475C5 /* UIScrollView+RevanScrollView.m */,
+				0CBB5E018F16C15D4D4643A6C783C99F /* UIView+RevanView.h */,
+				BC55B4878DF35A53F071F83F11BEB2AE /* UIView+RevanView.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		1C1A18A326FE9B1680AFB8263978E785 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80DFE60586E50CA7AFBCEBDBCA616829 /* AFNetworking.modulemap */,
+				18F94A147A6BB6D6DF7714C3F812704A /* AFNetworking.xcconfig */,
+				3B4DC0C583488E0BD34CCC939F2C86CE /* AFNetworking-dummy.m */,
+				9B53718D3690D3ED876DA6456191F771 /* AFNetworking-Info.plist */,
+				EB2B49A271C5F8956D59CA1D1FB41B19 /* AFNetworking-prefix.pch */,
+				3AF0A3AB1FF71F1968033676F7F5E45B /* AFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		1F1FC5CEBB247566C601A7153359736F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				24E311787A9C2D8103E25A25BF6D6446 /* AFNetworkReachabilityManager.h */,
+				91F5FFAB102C7850D775461801E54901 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		23DE4DE74DAE0812932BF549B995E683 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C46CE46FCB582C282D8FA83EFE8B5DAB /* RevanAlertTool.h */,
+				ABFB68B1C685CD0DCF1E1AB8688D5604 /* RevanAlertTool.m */,
+				9481EDCF29C7F6C3C5BCAA50FEECA046 /* RevanCacheTool.h */,
+				3B06EA11C1CEE5450E0598F80ABEE5B9 /* RevanCacheTool.m */,
+				CD0AB2D357F787CB34B252BDEDAF22A6 /* RevanDateFormatter.h */,
+				3EAD38CD59E005FBBE07FA998FBB78BF /* RevanDateFormatter.m */,
+				578DF9EEEEA9709A4F4D656329BAC77D /* RevanDevicePermission.h */,
+				B3D3CEF885B17F564A0735808B5DF31C /* RevanDevicePermission.m */,
+				35F77E431C0EECDDB6A5698DC62787D3 /* RevanLoadCurrentBundle.h */,
+				5B4458D34C482C593AD200F1D360477D /* RevanLoadCurrentBundle.m */,
+				DD5B503A5760434E47ACD354F4C8E4F3 /* RevanNoticeLocal.h */,
+				035A13A4785F2F379252E9D1900EE368 /* RevanNoticeLocal.m */,
+				6ECC8EAB71167F8EBA4B9A0023E080E5 /* RevanSystemInformation.h */,
+				AE54A7BA74F4EEAB7180A8C7C6C78C13 /* RevanSystemInformation.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		24010231781399A012474903BBDD6DF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B55B7770175E41253C838A9974724 /* MJRefresh.modulemap */,
+				16084855E968149177F7660B148272FF /* MJRefresh.xcconfig */,
+				D460798D0D0B14CF2FC532E205D094C9 /* MJRefresh-dummy.m */,
+				9933D69CA788BF052ADFBF1541108A53 /* MJRefresh-Info.plist */,
+				DA5510827CB02E42F7B7C103E21A848E /* MJRefresh-prefix.pch */,
+				1A2A7F92B770D515AA89DA986749E4F5 /* MJRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		250B36AD7CD6EACB8035029CEAA4B07A /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				33AC9A57A478D544F7F7EEAABE98EEF6 /* MJRefresh.h */,
+				84A9458EF7AFF913D358B5BF9917DA41 /* MJRefreshAutoFooter.h */,
+				79CAC3C67C41DEF6626F1FCF4AD1C68F /* MJRefreshAutoFooter.m */,
+				0446C8DF06519DC5E43B21A5D5F85A44 /* MJRefreshAutoGifFooter.h */,
+				EFC938556FED3AEC790E8BB7B3CB0DBD /* MJRefreshAutoGifFooter.m */,
+				E47F15551FA656460DB0C756EAC6F376 /* MJRefreshAutoNormalFooter.h */,
+				D15F8765B5F36394E81D763FCD8C663F /* MJRefreshAutoNormalFooter.m */,
+				7B99EA86CC74FC8A8A380F5EDEA1D14C /* MJRefreshAutoStateFooter.h */,
+				E82D07434C4C739F325C88916B050E8C /* MJRefreshAutoStateFooter.m */,
+				51AA1D0D0BEC8FC6AD358E1281323201 /* MJRefreshBackFooter.h */,
+				E625C31975C23C3381ECE286EF4D5759 /* MJRefreshBackFooter.m */,
+				B57596047D2C72BF50AA0E47C8A3CF90 /* MJRefreshBackGifFooter.h */,
+				C6CDEE4525C2D36A110AC6AF93D24D29 /* MJRefreshBackGifFooter.m */,
+				BB5A771401E771B716703D608B212F9F /* MJRefreshBackNormalFooter.h */,
+				DAEFAD1A5B0862550E5B29C58AAC2C7F /* MJRefreshBackNormalFooter.m */,
+				153833EAD88D9D6AB89D08A6953719D2 /* MJRefreshBackStateFooter.h */,
+				684A859C3CAB52484E84EE8D0DB961F2 /* MJRefreshBackStateFooter.m */,
+				D1DCA8F65D670300A066D2DA0D407D3B /* MJRefreshComponent.h */,
+				DAF71F813A3AEC76219D03FE77CF4709 /* MJRefreshComponent.m */,
+				1CC383D7C8A42CBE15EC480FBCC226E5 /* MJRefreshConst.h */,
+				F62D7787CA89FB59830E3FADD2F01F8E /* MJRefreshConst.m */,
+				821304C368B16E75762BD90180957DFF /* MJRefreshFooter.h */,
+				E31C1CD37D9C5FF6C53338BF88ABA1FD /* MJRefreshFooter.m */,
+				9BB556DF37794810DC7ACD38ACAC49E9 /* MJRefreshGifHeader.h */,
+				B6E4526653DB8E64FE4EDB1914508078 /* MJRefreshGifHeader.m */,
+				0D8CECD1BFF0405FFD26591E3AD5C16B /* MJRefreshHeader.h */,
+				E491C8A3DA307E65461F4F0E6154F923 /* MJRefreshHeader.m */,
+				78BAE3E853DAB09653DE4658B0933A31 /* MJRefreshNormalHeader.h */,
+				489F8048041A46D08977EED635163FE9 /* MJRefreshNormalHeader.m */,
+				A33176172782DA55FBF5BB4BB92247CA /* MJRefreshStateHeader.h */,
+				CC547BB562299E8D80DBAFC302672B2E /* MJRefreshStateHeader.m */,
+				6F23ADA22147EF3BDF2EAD3101256B48 /* NSBundle+MJRefresh.h */,
+				C1C40CBE61D46A54F745B789E32F9AC8 /* NSBundle+MJRefresh.m */,
+				7DD8CFD52486207AAD0BD972F60F5F64 /* UIScrollView+MJExtension.h */,
+				E24457DEFD680D51C583CC51639C9987 /* UIScrollView+MJExtension.m */,
+				ED373AE5DE58693B5D261D389D3E5190 /* UIScrollView+MJRefresh.h */,
+				C02FF7E1235B7E517A3EE9D74BA986FD /* UIScrollView+MJRefresh.m */,
+				D2B2D42F4768EC3F19E60564D8FE8194 /* UIView+MJExtension.h */,
+				3F664FCD3687528977BD14A2129DD96D /* UIView+MJExtension.m */,
+				A854A365684ADCE883F795F91B392795 /* Resources */,
+				24010231781399A012474903BBDD6DF2 /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		262FE1893B192274C5D19F8DE586DFC4 /* BaseOther */ = {
+			isa = PBXGroup;
+			children = (
+				7CF0AF8F70617873F8007F090608A479 /* UIBarButtonItem+AVT.h */,
+				15E599158B3DEAFA9ED1DCFF7A185CC5 /* UIBarButtonItem+AVT.m */,
+				3135F677AB0A292BB89BBDA869FAA3B4 /* UIImage+RevanVC.h */,
+				C4DFA105A781609C04EA081E9681A1A4 /* UIImage+RevanVC.m */,
+			);
+			name = BaseOther;
+			path = RevanKits/Classes/BaseMVC/BaseOther;
+			sourceTree = "<group>";
+		};
+		3A52014C88616AFB236689C363CFC99D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF763A4C13A942B19A78682A061F488A /* BaseMVC */,
+			);
+			name = Classes;
+			path = RevanKits/Classes;
+			sourceTree = "<group>";
+		};
+		3E4536C01865CC7B0A34FBEA3CDEE610 /* RevanKits */ = {
+			isa = PBXGroup;
+			children = (
+				4A305221561ED6555F075000FE3D3020 /* Base */,
+				6773A0A98C29262ABF939AA522B7B7C3 /* BaseMVC */,
+				0E06847737CEBF2E47E545E4277CA930 /* Category */,
+				D5649A5F3A13A15B859FB27EEF472189 /* Network */,
+				B836D0EBBC7BAEE76AB8A25BC1747073 /* Pod */,
+				95D4778A29FEA2F0724F840EA8C41073 /* Support Files */,
+				23DE4DE74DAE0812932BF549B995E683 /* Tool */,
+			);
+			name = RevanKits;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		400B7A564FF7B7033E6F8D84C3B1CFAE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				237220C4002BBEB86700A6BC42A54769 /* AFAutoPurgingImageCache.h */,
+				4E60D7373DA816339023ECB337D41C6B /* AFAutoPurgingImageCache.m */,
+				F99D2D4569DC2E96AC275FA8A0EEB72C /* AFImageDownloader.h */,
+				10B535420F68E67573A7520DCE205CE2 /* AFImageDownloader.m */,
+				893B327EFE34C021ADDDB23E24A67D17 /* AFNetworkActivityIndicatorManager.h */,
+				E33B5B4C0386BD86610CC2174B337C35 /* AFNetworkActivityIndicatorManager.m */,
+				30DEF36CFB224F66FA15ED050AEF8DFA /* UIActivityIndicatorView+AFNetworking.h */,
+				F1A2F210CA25DEF2434C0D9A2476A4C4 /* UIActivityIndicatorView+AFNetworking.m */,
+				FCBB28B9AA7F596A211F292BA3964ED0 /* UIButton+AFNetworking.h */,
+				08A518A60FD643512D56DA54E5F118A2 /* UIButton+AFNetworking.m */,
+				4061C9803222D958DDB22BACF653A76E /* UIImage+AFNetworking.h */,
+				A0E381DEAB554FB689092D7B113F4F7F /* UIImageView+AFNetworking.h */,
+				E83DAA51E7A22F93CD406762037EBFE0 /* UIImageView+AFNetworking.m */,
+				6E48C9E1E3CE798271CAE4685DCB963F /* UIKit+AFNetworking.h */,
+				2A2CF1690EAD82707B813765C02AAC55 /* UIProgressView+AFNetworking.h */,
+				A498EDD0B17C3F152377E0811B33D233 /* UIProgressView+AFNetworking.m */,
+				6FDE1A0DF584FF3A509A5B8CCEFEAEF9 /* UIRefreshControl+AFNetworking.h */,
+				6B59C9FD7F3BD9165A9D513F93D0FDF6 /* UIRefreshControl+AFNetworking.m */,
+				DAD857A94B564C4687AD39809AA80B25 /* UIWebView+AFNetworking.h */,
+				B0F1EC153CB3FBB41FD04FDBE182CD5F /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		4388DE9119A66706E009FA6FFC42CF7F /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				8AE251477D90632506C8BDCB6C71B5A4 /* AFURLRequestSerialization.h */,
+				074BD361A3E93DB806830AD84DCC6634 /* AFURLRequestSerialization.m */,
+				FC733AA6BA30219122F8243EEA1D46F0 /* AFURLResponseSerialization.h */,
+				6447A9A067C910FD91E8FCF0743563F7 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		43C0A8FC4BAF8BD8B337CCF057756ECE /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				97745BA86FB3FBB6393935387727D453 /* AFNetworking.h */,
+				54661B94607831F27597193F511CB63B /* NSURLSession */,
+				1F1FC5CEBB247566C601A7153359736F /* Reachability */,
+				631699156465FC0E41554FCC9D9AC01D /* Security */,
+				4388DE9119A66706E009FA6FFC42CF7F /* Serialization */,
+				1C1A18A326FE9B1680AFB8263978E785 /* Support Files */,
+				400B7A564FF7B7033E6F8D84C3B1CFAE /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4A305221561ED6555F075000FE3D3020 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				158BDA9F12E676EA6F243AF578BEE32A /* RevanBase.h */,
+				A12AFE02C4D3E2E7ADD11943A8F3A39F /* RevanConst.h */,
+				81E1271EEA8292B7FF03ECC8459E01D1 /* RevanConst.m */,
+				6D11090970F9B62C0EDA5244C1AA1C16 /* RevanSingtom.h */,
+				1B1DF82BBE86E9C6764A07ABEDB96CA4 /* UIViewIBInspectable.h */,
+				F60ECFB96448C080B868D33324AC38A9 /* UIViewIBInspectable.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		54661B94607831F27597193F511CB63B /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				5B4483AA0636AF43F68375EE960EE61F /* AFCompatibilityMacros.h */,
+				04A8C51213882B458A3CC8A4FE33C9ED /* AFHTTPSessionManager.h */,
+				E1EB6A126362EB0AFA87B3B271A5CDB5 /* AFHTTPSessionManager.m */,
+				48F102579FF1314AF1930C08076501B8 /* AFURLSessionManager.h */,
+				A2A12F6289A5173BA055F0DD23132DC8 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		58234F0E453284377E9956F2B6BFFD13 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				849994F39398BA411DAF6830A520A428 /* Pods-RevanKits_Example */,
+				D2DECD0EFEB5719C1C4243DC208955CF /* Pods-RevanKits_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		631699156465FC0E41554FCC9D9AC01D /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				96F2E7793D477AF6D7C7E1E3F723F2A7 /* AFSecurityPolicy.h */,
+				EAD4FCB993337EAE2F6C171469FA74F7 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		66C91C2903ECD2C2E63CED6D8E6B3311 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E4536C01865CC7B0A34FBEA3CDEE610 /* RevanKits */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6773A0A98C29262ABF939AA522B7B7C3 /* BaseMVC */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBC62701407E974265B5A5A4036FDF /* BaseDataModel */,
+				262FE1893B192274C5D19F8DE586DFC4 /* BaseOther */,
+				967AA412211A00771943BFE63780DD16 /* BaseVC */,
+				85D9F380FC999056EF996BDC75563D5B /* BaseView */,
+				C80B1C6F2D897CA6BA1080EC927060C7 /* Resources */,
+			);
+			name = BaseMVC;
+			sourceTree = "<group>";
+		};
+		70CA0FE39B1F2C7CFA95C2DBF7ADE44A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79A8009FC71BF2CCB45DA14F49BEF546 /* CoreGraphics.framework */,
+				35CE88C9CC4C1E17472241820F577BBE /* Foundation.framework */,
+				163CF2A1B710E18DAC653D37E4D25769 /* MobileCoreServices.framework */,
+				D3281EEF52FCC94AFD9FF97FC5CEF5C1 /* Security.framework */,
+				52A2766E6D8DCB8A0E7A07F861157301 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		849994F39398BA411DAF6830A520A428 /* Pods-RevanKits_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6E3325E148709F646508DBFB1934E4C2 /* Pods-RevanKits_Example.modulemap */,
+				4443A441D2821C29A3A0B16673B432F1 /* Pods-RevanKits_Example-acknowledgements.markdown */,
+				0BCACC6C4B2D9174B06F73338141DE06 /* Pods-RevanKits_Example-acknowledgements.plist */,
+				511B51A08807201AB364CA8BF5642CCA /* Pods-RevanKits_Example-dummy.m */,
+				6C285403150BD3C25EB6AA09BAD51762 /* Pods-RevanKits_Example-frameworks.sh */,
+				BB8C7A8BE9AEB04E5748EB92BF49E47E /* Pods-RevanKits_Example-Info.plist */,
+				0AD52D6C026ED6C9553DC4D97980AEE7 /* Pods-RevanKits_Example-umbrella.h */,
+				6230438E3A2BC56524FD0B8ECC1F1D76 /* Pods-RevanKits_Example.debug.xcconfig */,
+				24EFB6D73305695836D0CF2470F6A7BD /* Pods-RevanKits_Example.release.xcconfig */,
+			);
+			name = "Pods-RevanKits_Example";
+			path = "Target Support Files/Pods-RevanKits_Example";
+			sourceTree = "<group>";
+		};
+		85D9F380FC999056EF996BDC75563D5B /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				FA78D596C37D377D8012009E1CE5AC77 /* RevanLoadingInfoView.h */,
+				7D410CAC4CAB46FF6D50E864FF7E6FC8 /* RevanLoadingInfoView.m */,
+			);
+			name = BaseView;
+			path = RevanKits/Classes/BaseMVC/BaseView;
+			sourceTree = "<group>";
+		};
+		8E7F6CC0EEEB2BD105322E0BC835B3DD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8A84734F58091B8021D24B5F4A837CDC /* BaseImage.xcassets */,
+			);
+			name = Assets;
+			path = RevanKits/Assets;
+			sourceTree = "<group>";
+		};
+		95D4778A29FEA2F0724F840EA8C41073 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6230B497E425DBC96C45702218C7BECB /* ResourceBundle-BaseMVCSource-RevanKits-Info.plist */,
+				F4953319C937E1EBCFCAEE66A864B4E1 /* RevanKits.modulemap */,
+				A69506798F3CAE5C120FE09986F768BD /* RevanKits.xcconfig */,
+				69008555C0DADAD00E63515DF55303E8 /* RevanKits-dummy.m */,
+				10BF5E7BD694BC7A8DCED2B4C09CEA64 /* RevanKits-Info.plist */,
+				DA4483DC5F7A64111AFDBEB7870EC043 /* RevanKits-prefix.pch */,
+				A0830E3E6E7CD7D2483E0C7E9C8E888A /* RevanKits-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RevanKits";
+			sourceTree = "<group>";
+		};
+		967AA412211A00771943BFE63780DD16 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				E0CB5D7C2C3A7342530A16385998DD4F /* RevanCollectionViewController.h */,
+				60A4FD9FD90628F7C0D7BAA4635E6567 /* RevanCollectionViewController.m */,
+				819CA4306261EB6889C806F1720780B7 /* RevanTableViewController.h */,
+				4CE35E858830656FE899F0765AAC2A63 /* RevanTableViewController.m */,
+				D16D328B48A663EFD6BEFE169308A503 /* RevanViewController.h */,
+				FB268A74C06B8D2C6626FA0D4B703CE6 /* RevanViewController.m */,
+				1EE311DEAC2D1158E9CD06895C16044C /* UIViewController+RevanVC.h */,
+				5E7F74EFCD10D031155FD9E4ECF75824 /* UIViewController+RevanVC.m */,
+			);
+			name = BaseVC;
+			path = RevanKits/Classes/BaseMVC/BaseVC;
+			sourceTree = "<group>";
+		};
+		A854A365684ADCE883F795F91B392795 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E8CD1036F30754222C5D7E807F93494 /* MJRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ACA0AEF5B3686E639AE1EDB7C0460174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA6607E3799F67E9A58E06E982E8D86 /* AFNetworking.framework */,
+				AE63919206A95FF655AB9DAE32262E5A /* BaseMVCSource.bundle */,
+				7D9EF737F213556B7F5A8A38C519909E /* MJExtension.framework */,
+				4B9A00B222AA6351B9B9CE2A8F2087CD /* MJRefresh.framework */,
+				9C41C2D97D86F4B5647EE5EA18A34031 /* Pods_RevanKits_Example.framework */,
+				6D82F6E96D108CEF14AA8175E394D7DB /* Pods_RevanKits_Tests.framework */,
+				0BD10DD0D352F5432F70E41A2968BB73 /* RevanKits.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B836D0EBBC7BAEE76AB8A25BC1747073 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE6938EB61192DBC729CCC4A6A5DF45B /* LICENSE */,
+				C4B8386761856C0B8412A309EEEA7E66 /* README.md */,
+				8CF05105575030C3E6739F4B7B119035 /* RevanKits.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE575A34CD420662C18DECB0C72B261F /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				896BD229DDCEC79966365C488691C800 /* RevanLoadingInfoView.xib */,
+			);
+			name = BaseView;
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		C05B3B772DF99ECBF7F21A51157CBE9E /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C2C7E8743CFD701BEB68E660811E52E3 /* MJExtension.h */,
+				1FC885A0F3FF0B0F9AE5B3FB4D2A706D /* MJExtensionConst.h */,
+				3B5CD8C436E66BB1F817B6A49BF7C012 /* MJExtensionConst.m */,
+				8CEBA9D8874351856B1D22E0488DFD6C /* MJFoundation.h */,
+				01FBC2F6E6F275B00E2B36AA80088096 /* MJFoundation.m */,
+				20DDE0A4BC0DA8C501F80D0F3CA446CF /* MJProperty.h */,
+				C863139D14DBE33504912A4D40F30AFB /* MJProperty.m */,
+				A74FD0A0DBD07CD68A2DAF5E4A41881A /* MJPropertyKey.h */,
+				563749BF241FBB3A25D064508704406C /* MJPropertyKey.m */,
+				BDC1FC9C57D157116602F7C58D74920A /* MJPropertyType.h */,
+				05E384EB32ED7B93C6821C355773ADF0 /* MJPropertyType.m */,
+				E21CE964BE7BBBBFCCAC8173CB5D223A /* NSObject+MJClass.h */,
+				FF2359F66234E12D58D893DC881A46B0 /* NSObject+MJClass.m */,
+				31AC0EAA34570EE40FBA280CBDCAEFA7 /* NSObject+MJCoding.h */,
+				6352524A2A99EFA9CEE2898BF3832850 /* NSObject+MJCoding.m */,
+				2D5FB762B57D74FAC3720467D3FE9E63 /* NSObject+MJKeyValue.h */,
+				0C9793DA1F556F336A92BA1C1B90BEBB /* NSObject+MJKeyValue.m */,
+				BBD5BE45BE6AEF0885E90980BFB01ADA /* NSObject+MJProperty.h */,
+				29A234518C7A857318C2B85DC9EA4924 /* NSObject+MJProperty.m */,
+				501AD340997A81E2ADB5D4761F506A83 /* NSString+MJExtension.h */,
+				2585CC1B38B6E3B8ABBC7DDCDEA9CB4E /* NSString+MJExtension.m */,
+				C20BF063C5BA3BEAB52713FA8C775C91 /* Support Files */,
+			);
+			name = MJExtension;
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		C120A3DAF8C0E0D89DC5F02492E91A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F76710673C4934C4B612E36B38DC9B2 /* AFNetworking.framework */,
+				57A9BDF2DA8B8B6D09325E48A50CBDE6 /* MJExtension.framework */,
+				07D3270F1BBA12B8514A1346E5F2E6A9 /* MJRefresh.framework */,
+				70CA0FE39B1F2C7CFA95C2DBF7ADE44A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C20BF063C5BA3BEAB52713FA8C775C91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4AE64787A65756610102F5E9665072 /* MJExtension.modulemap */,
+				8E484C57735BB305443B0BE4CD0245CF /* MJExtension.xcconfig */,
+				2957EB2C481E507C5E75381A0769D6E6 /* MJExtension-dummy.m */,
+				03C29CFAF0F00EE545590D23CC8CAF50 /* MJExtension-Info.plist */,
+				A0309EBD8C24F72301B09A873A107B07 /* MJExtension-prefix.pch */,
+				27E82DA6F0D033A0E490A762E3A5B8D5 /* MJExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		C4CBC62701407E974265B5A5A4036FDF /* BaseDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				138562F432CFB01628B51A413B24BE0E /* RevanDataModel.h */,
+				5B08F10936FDEDEF82F5C8A72FDC9295 /* RevanDataModel.m */,
+				B9B00BC49DFA0B0503DBED2F532BAB56 /* RevanListDataModel.h */,
+				35CBECBA13AED5297D74AB496F05542D /* RevanListDataModel.m */,
+				FF936709EEEF4033B914EDA207E144F8 /* RevanPageListDataModel.h */,
+				74605E9AECFC62B73DAFA6043F828790 /* RevanPageListDataModel.m */,
+			);
+			name = BaseDataModel;
+			path = RevanKits/Classes/BaseMVC/BaseDataModel;
+			sourceTree = "<group>";
+		};
+		C80B1C6F2D897CA6BA1080EC927060C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F6CC0EEEB2BD105322E0BC835B3DD /* Assets */,
+				3A52014C88616AFB236689C363CFC99D /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				66C91C2903ECD2C2E63CED6D8E6B3311 /* Development Pods */,
+				C120A3DAF8C0E0D89DC5F02492E91A7E /* Frameworks */,
+				E7B7081F96AABB0E3CC2283D83821C99 /* Pods */,
+				ACA0AEF5B3686E639AE1EDB7C0460174 /* Products */,
+				58234F0E453284377E9956F2B6BFFD13 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DECD0EFEB5719C1C4243DC208955CF /* Pods-RevanKits_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E5AAD75563C9889F9FF3C5EE7E82A41C /* Pods-RevanKits_Tests.modulemap */,
+				24C6184242269142FDDE195C785F529B /* Pods-RevanKits_Tests-acknowledgements.markdown */,
+				ECA2A4C393F63FBF0FC1BB6ED17A9A20 /* Pods-RevanKits_Tests-acknowledgements.plist */,
+				A18A197BC059EF1C2983653DC4F35E38 /* Pods-RevanKits_Tests-dummy.m */,
+				82EF0C0D7B17E26CB1E481C8DD2EAA36 /* Pods-RevanKits_Tests-Info.plist */,
+				134C494EFB2B5325B9A8319EC4C08858 /* Pods-RevanKits_Tests-umbrella.h */,
+				E538A0A9BC1EBC8887030EF064E69D2C /* Pods-RevanKits_Tests.debug.xcconfig */,
+				92F3307A0EB3AFE21969298F0A4A7BB2 /* Pods-RevanKits_Tests.release.xcconfig */,
+			);
+			name = "Pods-RevanKits_Tests";
+			path = "Target Support Files/Pods-RevanKits_Tests";
+			sourceTree = "<group>";
+		};
+		D5649A5F3A13A15B859FB27EEF472189 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DA4878D2883AA638B6EAADE95C72B3E0 /* NSString+RevanHttp.h */,
+				4BFDC83A2F4450B0AFF668B6DA898411 /* NSString+RevanHttp.m */,
+				0DFA95284F907245341DC1337148E804 /* RevanAppInfo.h */,
+				D2465948116013D1B9D77D43DFDD69CE /* RevanAppInfo.m */,
+				C2A234AE947A78C560907D68BA3CD940 /* RevanHttpENV.h */,
+				90BA5CFB3BF93B8949CB5C03582FD2D7 /* RevanHttpENV.m */,
+				7CD16844D2CF44269F974124C35E2B80 /* RevanHttpManager.h */,
+				D126D728647B1AB3CA1C758EA1A29C90 /* RevanHttpManager.m */,
+				E03EBA66B2C1AD87ACD3E7AF86090AD9 /* RevanHttpParameterConfig.h */,
+				8396FF372A5962B47D53B0048BD91038 /* RevanHttpParameterConfig.m */,
+				EF27D1DC25DA4BC21D363B457CF54061 /* RevanHttpResponse.h */,
+				8E19CF052A2FD5FE4A13BC9AAF860AB0 /* RevanHttpResponse.m */,
+				02A716BD91A2A01F53979EC17FD882B6 /* RevanHttpTask.h */,
+				DCE742B1EB8C3EF2F25AB9A6495E44CD /* RevanHttpTask.m */,
+				546BBC8E7E75B3F1DB767E0EF51BC1BE /* RevanUserParameters.h */,
+				7B6C1AE5C365E01DF0418F47BA29839B /* RevanUserParameters.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		DF763A4C13A942B19A78682A061F488A /* BaseMVC */ = {
+			isa = PBXGroup;
+			children = (
+				BE575A34CD420662C18DECB0C72B261F /* BaseView */,
+			);
+			name = BaseMVC;
+			path = BaseMVC;
+			sourceTree = "<group>";
+		};
+		E7B7081F96AABB0E3CC2283D83821C99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43C0A8FC4BAF8BD8B337CCF057756ECE /* AFNetworking */,
+				C05B3B772DF99ECBF7F21A51157CBE9E /* MJExtension */,
+				250B36AD7CD6EACB8035029CEAA4B07A /* MJRefresh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E342E51C793DFACB01670F8EA14EBDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9974436AB9EC73E264CDE32B8F9B164 /* Pods-RevanKits_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BAA58CD57D81EDD4EF8C47CE27694C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FCF391B20687DD7492C2C80185DD6FA /* Pods-RevanKits_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B481F7D9424640B11DFD07C65E61B86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */,
+				076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */,
+				9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */,
+				077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */,
+				E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */,
+				9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */,
+				B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */,
+				891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */,
+				F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */,
+				19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */,
+				D291925F0CAEBC063B12582E0CAA4132 /* AFURLSessionManager.h in Headers */,
+				1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */,
+				33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */,
+				567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */,
+				63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */,
+				B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */,
+				FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */,
+				7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C66CE2F70EFDD121C5F3EA19025933 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14A2055E9FB12D9A53E1DA77BC1FC08 /* CALayer+RevanLayerAimate.h in Headers */,
+				2B6508A494E51427F9C5007F5E1CB58B /* NSData+AES256.h in Headers */,
+				EA9DEF70186EAC909E2ACFA21DC4746F /* NSString+RevanHttp.h in Headers */,
+				F298079FB006487DF911148444366561 /* NSString+RevanString.h in Headers */,
+				AA89B94C9CC7224D2B4CDEBB55BBCAE4 /* RevanAlertTool.h in Headers */,
+				00A0B14E0F0228E1C8F40565ACB8CD60 /* RevanAppInfo.h in Headers */,
+				E93E1A13C3E99B3E002A6AF0852BE2A7 /* RevanBase.h in Headers */,
+				006EAC0FE44D746B2AFFAAAD607DBE15 /* RevanCacheTool.h in Headers */,
+				D5766D75108821DEC1DD8C6CD5AAC06B /* RevanCategoryHeader.h in Headers */,
+				637F78DB3322AEAE2E7F8D92A9CBD0D6 /* RevanCollectionViewController.h in Headers */,
+				17757560802C5C81A7B450E977251C35 /* RevanConst.h in Headers */,
+				2C5A588FB15007D358E262D24059BE74 /* RevanDataModel.h in Headers */,
+				298AE1826F02157C2BE69769A026F704 /* RevanDateFormatter.h in Headers */,
+				9B74B910E437793530BBAF55F09F6393 /* RevanDevicePermission.h in Headers */,
+				F41F0B0CF6A19E883ECBCB06E5E240F4 /* RevanHttpENV.h in Headers */,
+				F86C72DE8A45D0C61B5931A73C35A180 /* RevanHttpManager.h in Headers */,
+				907D3CCA883E10B5FF5E991507F9BFB4 /* RevanHttpParameterConfig.h in Headers */,
+				F97015DEAEBAE1A5D6DEA6044BC724FD /* RevanHttpResponse.h in Headers */,
+				C15E1F1E64EA3DCC7326D602737BFC10 /* RevanHttpTask.h in Headers */,
+				9CAA1CB258A750C8CB5CD0711C68A5AE /* RevanKits-umbrella.h in Headers */,
+				ED16014D618A3296225E61FC3D8F6299 /* RevanListDataModel.h in Headers */,
+				3B2C338426B50B9E58EF20E5C0C6285B /* RevanLoadCurrentBundle.h in Headers */,
+				F00D122BB664A66DE3FB585DC93BE2D3 /* RevanLoadingInfoView.h in Headers */,
+				0CEE0A920E4CE4DF3378E7290CFE0FAF /* RevanNoticeLocal.h in Headers */,
+				B80C778D399837420AA0DE14F226FBB9 /* RevanPageListDataModel.h in Headers */,
+				9E6C84602924BF2068505CBD3C81365C /* RevanSingtom.h in Headers */,
+				62BFF64B8BED2FB3EA681AB321417EA3 /* RevanSystemInformation.h in Headers */,
+				96E124AD7CE70EF37F721A4E02685657 /* RevanTableViewController.h in Headers */,
+				06CF51D722D2C0E4D538293A08017D8F /* RevanUserParameters.h in Headers */,
+				D6EC45FDC7F5B3917BCECD6270544311 /* RevanViewController.h in Headers */,
+				83D4DA0A0561BC26503600EA02F7FA0A /* UIBarButtonItem+AVT.h in Headers */,
+				90423B0A62677A78477C0AC200C690DC /* UIImage+RevanImage.h in Headers */,
+				E075507A7424EF2E6F1813E4A18ED37C /* UIImage+RevanVC.h in Headers */,
+				8611D48A1E0D59E6B5F7DFC8FC6E3E82 /* UIScrollView+RevanScrollView.h in Headers */,
+				DF54FC530727BC6C118436C0249E5E3F /* UIView+RevanView.h in Headers */,
+				6F26627BD9DF65942A11706E22D4F5E7 /* UIViewController+RevanVC.h in Headers */,
+				53A0721D0BC5E8402FF725BEE5984B32 /* UIViewIBInspectable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5E31C699DC364F292E185E797682AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19CB279DC4268A42BFDB5F25880A91A /* MJExtension-umbrella.h in Headers */,
+				10AC9A32AB84A54527A1C4EBA9DA0722 /* MJExtension.h in Headers */,
+				D3B440F155422ABCE41C3C018AC29853 /* MJExtensionConst.h in Headers */,
+				00BC01DB30E9F06B97D37F3DB007058B /* MJFoundation.h in Headers */,
+				A566A7E90340F3A321CECA526DA2FDB2 /* MJProperty.h in Headers */,
+				8E6A28985FE7E04C521E6799C981D9B6 /* MJPropertyKey.h in Headers */,
+				661610724A5F6E692FB74ADC854182B7 /* MJPropertyType.h in Headers */,
+				31EC9577E65F7A96A2B7F9C967AA9C94 /* NSObject+MJClass.h in Headers */,
+				996E111B666F4B9472401A953CB2E8A0 /* NSObject+MJCoding.h in Headers */,
+				C7B13EBAAABE4785D71EE94386C54432 /* NSObject+MJKeyValue.h in Headers */,
+				80E4EEDC6D16A4A82A622EDA8515443A /* NSObject+MJProperty.h in Headers */,
+				60BCDA762F8415152206EC351B4D0B9F /* NSString+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A85724D0ECA6CD24DFAF63DD917D06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20292439308665CB10E89D72D74BBB1 /* MJRefresh-umbrella.h in Headers */,
+				9FB3E4C11A4AC3328DB00AFB3B8053B2 /* MJRefresh.h in Headers */,
+				BD8D03BB3C22551D795835DEE60978CA /* MJRefreshAutoFooter.h in Headers */,
+				09363A6021AE2BF890864611810E3AC5 /* MJRefreshAutoGifFooter.h in Headers */,
+				BE43DEACA009E9432DC795654B80F43B /* MJRefreshAutoNormalFooter.h in Headers */,
+				8CD8E650D891C019637BEC903D4DFFF9 /* MJRefreshAutoStateFooter.h in Headers */,
+				439E0707D283A1E28FF1C183BD0B227A /* MJRefreshBackFooter.h in Headers */,
+				5DFA85066C51844C81A22FC469C2EE05 /* MJRefreshBackGifFooter.h in Headers */,
+				9E545607603CDE4089F91C59A377C140 /* MJRefreshBackNormalFooter.h in Headers */,
+				43CEDEE5BFB83866D408FE06917FC3C0 /* MJRefreshBackStateFooter.h in Headers */,
+				386E43C990BABD2BE2718B21EA01A98F /* MJRefreshComponent.h in Headers */,
+				16BDE28F0178B7A54B17F6B9B01A15DA /* MJRefreshConst.h in Headers */,
+				B415F46A5638F090B1862FA2F6E158A9 /* MJRefreshFooter.h in Headers */,
+				2DE10588BB794C01C31422146C2E5442 /* MJRefreshGifHeader.h in Headers */,
+				57DC52073043C7FCB7B075B784CF6E1A /* MJRefreshHeader.h in Headers */,
+				AFECA97AA0090421DFFC21C5BF6E8F75 /* MJRefreshNormalHeader.h in Headers */,
+				4255E5E881C51CB75A47EEFE04B270CC /* MJRefreshStateHeader.h in Headers */,
+				C11CD3314246419329D65ECC498663D2 /* NSBundle+MJRefresh.h in Headers */,
+				C73699EB31859B125378778082A62E60 /* UIScrollView+MJExtension.h in Headers */,
+				3F6AAB97851AFE28F1929415DD4BB718 /* UIScrollView+MJRefresh.h in Headers */,
+				73FD93FACA51C4671B26C7A0B24ED1D5 /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E7DB11E7778A359C4707859CC222865 /* Pods-RevanKits_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9E57327CFA91C769D2170DB86D9A5A /* Build configuration list for PBXNativeTarget "Pods-RevanKits_Tests" */;
+			buildPhases = (
+				85BAA58CD57D81EDD4EF8C47CE27694C /* Headers */,
+				97D08D944A069240E939853CCDE9034D /* Sources */,
+				F5875B8207877568A03B9BBFF364FA4D /* Frameworks */,
+				19CA41B271960C2A165CCA1D4216A446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242F2FE575C6A693E9C710035B257378 /* PBXTargetDependency */,
+			);
+			name = "Pods-RevanKits_Tests";
+			productName = "Pods-RevanKits_Tests";
+			productReference = 6D82F6E96D108CEF14AA8175E394D7DB /* Pods_RevanKits_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C76AC070DB65255C67667F7876EE238 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15979FE5D7353EBA9898381E61E4AD6 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				C9A85724D0ECA6CD24DFAF63DD917D06 /* Headers */,
+				A4F3E2D14CC8FEDCB0F16135664D35A7 /* Sources */,
+				AFE59E28961E719D41451F086E3C98F1 /* Frameworks */,
+				98DA792F2922F46B99D123915FBC6997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = 4B9A00B222AA6351B9B9CE2A8F2087CD /* MJRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C596DEC2E555FC1DD0392DABDDF476F /* Pods-RevanKits_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D4179638F929DAEDDC58F6B8BF6A32 /* Build configuration list for PBXNativeTarget "Pods-RevanKits_Example" */;
+			buildPhases = (
+				5E342E51C793DFACB01670F8EA14EBDA /* Headers */,
+				3C35E68FAE493DFCA321CBAC5A7A913E /* Sources */,
+				B8FDE96071E504FAC26DCA29FCA6C55C /* Frameworks */,
+				3572CF6A7650DD4A0D60A0AC642C4F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6983C2BBC962C56BC11FE248ABCA65D /* PBXTargetDependency */,
+				0F5AC4796768FE4CBE955BB08455D3B8 /* PBXTargetDependency */,
+				76B5B50B6B8FCE2A72BDDCD15089EB2E /* PBXTargetDependency */,
+				A11A192A973EBBEB3F8577CD84DD2EAF /* PBXTargetDependency */,
+			);
+			name = "Pods-RevanKits_Example";
+			productName = "Pods-RevanKits_Example";
+			productReference = 9C41C2D97D86F4B5647EE5EA18A34031 /* Pods_RevanKits_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0533377230A75B92054359D8799B290 /* RevanKits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D615FBB0991748F76E78DDB5B2136C87 /* Build configuration list for PBXNativeTarget "RevanKits" */;
+			buildPhases = (
+				96C66CE2F70EFDD121C5F3EA19025933 /* Headers */,
+				5604030275A8B71EEFA0A9FA25F31A96 /* Sources */,
+				4A3034A4C13764872950F138ACC03EF4 /* Frameworks */,
+				E666CF6EC8E1EBC9A2A6293343324B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C10620CC2DC4044F2FD2F1B39EE00A /* PBXTargetDependency */,
+				063471A5C8C7CDDFDF5BC56C8FF5F1B1 /* PBXTargetDependency */,
+				736ACAB49B760391A5B1358444E7508E /* PBXTargetDependency */,
+				20439CDD041D349EBDB4633AD24DFA72 /* PBXTargetDependency */,
+			);
+			name = RevanKits;
+			productName = RevanKits;
+			productReference = 0BD10DD0D352F5432F70E41A2968BB73 /* RevanKits.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				8B481F7D9424640B11DFD07C65E61B86 /* Headers */,
+				D6735FC939CD439E865C33F1416D8D12 /* Sources */,
+				FC8435A689BD825A0D545C2D74D0F932 /* Frameworks */,
+				FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 7AA6607E3799F67E9A58E06E982E8D86 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4C6C994E1CF7A6C65D6EE4E4D8C91F4 /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678ED28ADB46D82A9E88134C01F96644 /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				9C5E31C699DC364F292E185E797682AE /* Headers */,
+				9E9EFBBCE60875E3E3D01344E6095F90 /* Sources */,
+				4192E78EBF6DA475964E0BF8822B32E0 /* Frameworks */,
+				7A09B52E9A5C172036C004446D69BC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = 7D9EF737F213556B7F5A8A38C519909E /* MJExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAC0A2745F7F94F57BD8E34A83193A38 /* RevanKits-BaseMVCSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2932876E59D4A2A9BFBD5ECB250CAC /* Build configuration list for PBXNativeTarget "RevanKits-BaseMVCSource" */;
+			buildPhases = (
+				87219C8CF189E1CC2E4EF1595368D951 /* Sources */,
+				7BABBDFDC62480779099DBB5463C4BE4 /* Frameworks */,
+				A41874B4E55B57C84DA78CD9911C133E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RevanKits-BaseMVCSource";
+			productName = "RevanKits-BaseMVCSource";
+			productReference = AE63919206A95FF655AB9DAE32262E5A /* BaseMVCSource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ACA0AEF5B3686E639AE1EDB7C0460174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */,
+				C4C6C994E1CF7A6C65D6EE4E4D8C91F4 /* MJExtension */,
+				6C76AC070DB65255C67667F7876EE238 /* MJRefresh */,
+				9C596DEC2E555FC1DD0392DABDDF476F /* Pods-RevanKits_Example */,
+				4E7DB11E7778A359C4707859CC222865 /* Pods-RevanKits_Tests */,
+				B0533377230A75B92054359D8799B290 /* RevanKits */,
+				FAC0A2745F7F94F57BD8E34A83193A38 /* RevanKits-BaseMVCSource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19CA41B271960C2A165CCA1D4216A446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3572CF6A7650DD4A0D60A0AC642C4F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A09B52E9A5C172036C004446D69BC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DA792F2922F46B99D123915FBC6997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE12F2BE6E02B5FD8CE827A10E8AB55 /* MJRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41874B4E55B57C84DA78CD9911C133E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9AA3F769E0DA1AA759BF2B77A747DD /* BaseImage.xcassets in Resources */,
+				D421B24E71BA54745E518D5CFBCEDD09 /* RevanLoadingInfoView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E666CF6EC8E1EBC9A2A6293343324B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BEC93EF80D51673F24352A56CB5812 /* BaseMVCSource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C35E68FAE493DFCA321CBAC5A7A913E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD7A1C1B9CCC0123E2127D955A4723E /* Pods-RevanKits_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5604030275A8B71EEFA0A9FA25F31A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A655D7BF3907D80896C3D02DF5D75E /* CALayer+RevanLayerAimate.m in Sources */,
+				4C48030F5A364E361ED31A2E91068DC6 /* NSData+AES256.m in Sources */,
+				4F59DF1D5D2CFE37C055EB51E9DD16A1 /* NSString+RevanHttp.m in Sources */,
+				32EA7EFEE34A20596C8AE0E5FADABD81 /* NSString+RevanString.m in Sources */,
+				61A8725BF42D29FD57840416C827A722 /* RevanAlertTool.m in Sources */,
+				85E94A498739A788E700E8BA05B5972B /* RevanAppInfo.m in Sources */,
+				7348CC2CB9066FD9C4654EE9393467B3 /* RevanCacheTool.m in Sources */,
+				E47B0424EEC9671514511303E424F0BA /* RevanCollectionViewController.m in Sources */,
+				B0C424B87C3E3EB3D2304C1FA5DA3404 /* RevanConst.m in Sources */,
+				CF75BB5E95AF101D4028F344434967A9 /* RevanDataModel.m in Sources */,
+				F485AB0791E4DF3D5D7C73E5CFBC8691 /* RevanDateFormatter.m in Sources */,
+				2F5048F1695755ADE8D1C620BB6059CC /* RevanDevicePermission.m in Sources */,
+				A8DAEEB95D40A8CF94DBE2B8176E0346 /* RevanHttpENV.m in Sources */,
+				06E45FA4ED53F93284097CE687E144DF /* RevanHttpManager.m in Sources */,
+				89A82AE9EDFE28BD60BCA85B804E6D23 /* RevanHttpParameterConfig.m in Sources */,
+				0A542CC6BE5B407101389910041850F4 /* RevanHttpResponse.m in Sources */,
+				82DDC8879E623067CDE811C7265E223D /* RevanHttpTask.m in Sources */,
+				DAAF74257D81A9D4231E0BD5D6A6526D /* RevanKits-dummy.m in Sources */,
+				EA1784EBDB81481F2E5262ECC046BA71 /* RevanListDataModel.m in Sources */,
+				7C9C76E689C027467745A536CDE0EE2F /* RevanLoadCurrentBundle.m in Sources */,
+				6FEDB21E34371E97896491A37896BE48 /* RevanLoadingInfoView.m in Sources */,
+				BA2360D291F44559925F8023B8E60F8F /* RevanNoticeLocal.m in Sources */,
+				C526286BCA61171FD1283DEFB8236E3F /* RevanPageListDataModel.m in Sources */,
+				77C1B2422A7B63D58ACBAF99DE710440 /* RevanSystemInformation.m in Sources */,
+				5D09FC06B3E3D8365711377998C87FC3 /* RevanTableViewController.m in Sources */,
+				CF285CCAB5F4A3794BBD2E4951C93848 /* RevanUserParameters.m in Sources */,
+				C06B29940B23C653556A40AF4835A0F7 /* RevanViewController.m in Sources */,
+				C3954E526C0B1373AE60A54A04372F0E /* UIBarButtonItem+AVT.m in Sources */,
+				291AD1A768F8CE32764DE348D26AAB45 /* UIImage+RevanImage.m in Sources */,
+				3277B35188738A7D0093C4A77FECDFE5 /* UIImage+RevanVC.m in Sources */,
+				6790BB834AFDDB2D7C638B4E60ED7104 /* UIScrollView+RevanScrollView.m in Sources */,
+				0EA64FA33E315CF119E6433717BB24B3 /* UIView+RevanView.m in Sources */,
+				68CC638A1496FB4FC0A08C0FF203B09A /* UIViewController+RevanVC.m in Sources */,
+				BF4BDF45506BD6C1D1C1A02F5FC36E57 /* UIViewIBInspectable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87219C8CF189E1CC2E4EF1595368D951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D08D944A069240E939853CCDE9034D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5033024734C82F49985E857CE0CF1183 /* Pods-RevanKits_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E9EFBBCE60875E3E3D01344E6095F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFDE150C7DE9311A8CDB4A44282F59 /* MJExtension-dummy.m in Sources */,
+				BCE150CBED51B428AEB8F2F0683B7DF4 /* MJExtensionConst.m in Sources */,
+				A6D00E3CB587FAF9C321AC7AE87EA50B /* MJFoundation.m in Sources */,
+				C72D2A5A0EF0C3F946A1AF18220DB327 /* MJProperty.m in Sources */,
+				9E006EB407A26DD11CC2CAEB34E67D8B /* MJPropertyKey.m in Sources */,
+				14BDB8C51889C30D6CA2FF0D092BB7DE /* MJPropertyType.m in Sources */,
+				42819969192568C83E0751D2E396FA14 /* NSObject+MJClass.m in Sources */,
+				2C5E4E511BD6C574D91B9EB169C4F0C6 /* NSObject+MJCoding.m in Sources */,
+				6F338FCA1AC565C34D68250AB69FE285 /* NSObject+MJKeyValue.m in Sources */,
+				8C420A9815C0C9ABB870926CF9F42B9A /* NSObject+MJProperty.m in Sources */,
+				1D636193128F57FEBD8760F2D303B853 /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F3E2D14CC8FEDCB0F16135664D35A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB6A36247069FED8CE1E8A70B8078B2 /* MJRefresh-dummy.m in Sources */,
+				27B482E9C5F3EB34714B6B8D6191E7E0 /* MJRefreshAutoFooter.m in Sources */,
+				3722DFABC75D79F738516C37B7519FD1 /* MJRefreshAutoGifFooter.m in Sources */,
+				D3D7E5D28E3A69CDE00EBF8CB78B7642 /* MJRefreshAutoNormalFooter.m in Sources */,
+				4EC72D6C7F6175F658103AB0F6CF7487 /* MJRefreshAutoStateFooter.m in Sources */,
+				E75BE8041D9C6207509DF929DDDA0609 /* MJRefreshBackFooter.m in Sources */,
+				5EECF8D80AF9AF67BA0D135FC9AD0E38 /* MJRefreshBackGifFooter.m in Sources */,
+				AB66F49F133FAE9BD9EAA9A29FAD75EE /* MJRefreshBackNormalFooter.m in Sources */,
+				ECB20F8E693B05B08F6F381A77EA8E9A /* MJRefreshBackStateFooter.m in Sources */,
+				5E99D197383D0876632260B01E279774 /* MJRefreshComponent.m in Sources */,
+				FFE11CC03CCDF7E1887E287E90C98C88 /* MJRefreshConst.m in Sources */,
+				9230DB3D735A7F6E202EEB12671512F9 /* MJRefreshFooter.m in Sources */,
+				C0CFB5EBBA6EA229E940436055CFF398 /* MJRefreshGifHeader.m in Sources */,
+				EA8F03E9D188A9086696DB8B093FAA1C /* MJRefreshHeader.m in Sources */,
+				576EBB347E9329A93FE0EB921A4EA3A1 /* MJRefreshNormalHeader.m in Sources */,
+				4CDD32847C4DFF32E120F87BCE488512 /* MJRefreshStateHeader.m in Sources */,
+				500E95B6B156AC527A884E4861AC138E /* NSBundle+MJRefresh.m in Sources */,
+				DEE3E21758E986E744A24F30DA41B878 /* UIScrollView+MJExtension.m in Sources */,
+				8D63FD9257BAA17CD3E29EADF4A9F4E3 /* UIScrollView+MJRefresh.m in Sources */,
+				FADC4D249D490A2C52E0D0F95F8A098F /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6735FC939CD439E865C33F1416D8D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C169039395DA323C675710954E884A /* AFAutoPurgingImageCache.m in Sources */,
+				775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */,
+				66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */,
+				3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */,
+				EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */,
+				87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */,
+				F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */,
+				459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */,
+				8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */,
+				9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */,
+				A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */,
+				3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */,
+				8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */,
+				CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		063471A5C8C7CDDFDF5BC56C8FF5F1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = C4C6C994E1CF7A6C65D6EE4E4D8C91F4 /* MJExtension */;
+			targetProxy = FA96BA066BE735DDF2A3873706F90C55 /* PBXContainerItemProxy */;
+		};
+		0F5AC4796768FE4CBE955BB08455D3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = C4C6C994E1CF7A6C65D6EE4E4D8C91F4 /* MJExtension */;
+			targetProxy = 0001C1CCD67EEA143FAC0C34323D5ED2 /* PBXContainerItemProxy */;
+		};
+		20439CDD041D349EBDB4633AD24DFA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RevanKits-BaseMVCSource";
+			target = FAC0A2745F7F94F57BD8E34A83193A38 /* RevanKits-BaseMVCSource */;
+			targetProxy = 6E6B864E52A1A3FE4407118999EF6C24 /* PBXContainerItemProxy */;
+		};
+		242F2FE575C6A693E9C710035B257378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RevanKits_Example";
+			target = 9C596DEC2E555FC1DD0392DABDDF476F /* Pods-RevanKits_Example */;
+			targetProxy = 9A0F39CBE0AE98C56ADD9876216FDAB9 /* PBXContainerItemProxy */;
+		};
+		56C10620CC2DC4044F2FD2F1B39EE00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */;
+			targetProxy = E7601C4B613307690193A863295BC4AD /* PBXContainerItemProxy */;
+		};
+		736ACAB49B760391A5B1358444E7508E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6C76AC070DB65255C67667F7876EE238 /* MJRefresh */;
+			targetProxy = B163629F3FF663664437051737B2C91B /* PBXContainerItemProxy */;
+		};
+		76B5B50B6B8FCE2A72BDDCD15089EB2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6C76AC070DB65255C67667F7876EE238 /* MJRefresh */;
+			targetProxy = 1CCF37520C54B4A86B7100CC60F24215 /* PBXContainerItemProxy */;
+		};
+		A11A192A973EBBEB3F8577CD84DD2EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevanKits;
+			target = B0533377230A75B92054359D8799B290 /* RevanKits */;
+			targetProxy = E7EE1AC6700390FE8FE1F12C8B5A2A92 /* PBXContainerItemProxy */;
+		};
+		F6983C2BBC962C56BC11FE248ABCA65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */;
+			targetProxy = 35E76A5B5968C5954FA52487CAA4B813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		045E4037CBFD24C2AEA473CCCF99F557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16084855E968149177F7660B148272FF /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		266610F578DAA1CA4A3877CA8148AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E484C57735BB305443B0BE4CD0245CF /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		308551EE27893D9BF5AA6BE50FC4D2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E484C57735BB305443B0BE4CD0245CF /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36CF75CBC2769D546058FDD2B3260C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6230438E3A2BC56524FD0B8ECC1F1D76 /* Pods-RevanKits_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevanKits_Example/Pods-RevanKits_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevanKits_Example/Pods-RevanKits_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45E25B7D0836FC263434C2F1591A2800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F3307A0EB3AFE21969298F0A4A7BB2 /* Pods-RevanKits_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevanKits_Tests/Pods-RevanKits_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevanKits_Tests/Pods-RevanKits_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B26860DCF8E9ADB321BF83AC439BEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E538A0A9BC1EBC8887030EF064E69D2C /* Pods-RevanKits_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevanKits_Tests/Pods-RevanKits_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevanKits_Tests/Pods-RevanKits_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CBF3C4F35A7636276DB320D6E7AAB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69506798F3CAE5C120FE09986F768BD /* RevanKits.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevanKits/RevanKits-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevanKits/RevanKits-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevanKits/RevanKits.modulemap";
+				PRODUCT_MODULE_NAME = RevanKits;
+				PRODUCT_NAME = RevanKits;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B752D113F577281207B4C492155C214F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F94A147A6BB6D6DF7714C3F812704A /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D18F0713A15F0D3F2DCA57D7D72C0470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69506798F3CAE5C120FE09986F768BD /* RevanKits.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RevanKits";
+				INFOPLIST_FILE = "Target Support Files/RevanKits/ResourceBundle-BaseMVCSource-RevanKits-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BaseMVCSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D7BF8DA0BF16DE266C1531C2BAFC208E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69506798F3CAE5C120FE09986F768BD /* RevanKits.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RevanKits";
+				INFOPLIST_FILE = "Target Support Files/RevanKits/ResourceBundle-BaseMVCSource-RevanKits-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BaseMVCSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E9D635B68D81DCDD18E56587E8228FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16084855E968149177F7660B148272FF /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0B20623DDE7EC98E33DC092E8F9D0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69506798F3CAE5C120FE09986F768BD /* RevanKits.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevanKits/RevanKits-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevanKits/RevanKits-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevanKits/RevanKits.modulemap";
+				PRODUCT_MODULE_NAME = RevanKits;
+				PRODUCT_NAME = RevanKits;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F27639328CA6FEBB51B01B65500579D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EFB6D73305695836D0CF2470F6A7BD /* Pods-RevanKits_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RevanKits_Example/Pods-RevanKits_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RevanKits_Example/Pods-RevanKits_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5A14DB591B5B224A5DE3711D9311E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F94A147A6BB6D6DF7714C3F812704A /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D4179638F929DAEDDC58F6B8BF6A32 /* Build configuration list for PBXNativeTarget "Pods-RevanKits_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CF75CBC2769D546058FDD2B3260C6E /* Debug */,
+				F27639328CA6FEBB51B01B65500579D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B752D113F577281207B4C492155C214F /* Debug */,
+				F5A14DB591B5B224A5DE3711D9311E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678ED28ADB46D82A9E88134C01F96644 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308551EE27893D9BF5AA6BE50FC4D2F2 /* Debug */,
+				266610F578DAA1CA4A3877CA8148AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2932876E59D4A2A9BFBD5ECB250CAC /* Build configuration list for PBXNativeTarget "RevanKits-BaseMVCSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BF8DA0BF16DE266C1531C2BAFC208E /* Debug */,
+				D18F0713A15F0D3F2DCA57D7D72C0470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15979FE5D7353EBA9898381E61E4AD6 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D635B68D81DCDD18E56587E8228FC2 /* Debug */,
+				045E4037CBFD24C2AEA473CCCF99F557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9E57327CFA91C769D2170DB86D9A5A /* Build configuration list for PBXNativeTarget "Pods-RevanKits_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B26860DCF8E9ADB321BF83AC439BEB2 /* Debug */,
+				45E25B7D0836FC263434C2F1591A2800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D615FBB0991748F76E78DDB5B2136C87 /* Build configuration list for PBXNativeTarget "RevanKits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0B20623DDE7EC98E33DC092E8F9D0E8 /* Debug */,
+				5CBF3C4F35A7636276DB320D6E7AAB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

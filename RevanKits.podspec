@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+RevanKits收集的是项目开发中必要的分类、常量、网络工具类等等
                        DESC
 
   s.homepage         = 'https://github.com/RevanWang/RevanKits'
@@ -29,8 +29,35 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+    s.subspec 'Category' do |c|
+        c.source_files = 'RevanKits/Classes/Category/**/*'
+    end
 
-  s.source_files = 'RevanKits/Classes/**/*'
+    s.subspec 'Base' do |b|
+        b.source_files = 'RevanKits/Classes/Base/**/*'
+    end
+
+    s.subspec 'Tool' do |t|
+        t.source_files = 'RevanKits/Classes/Tool/**/*'
+    end
+  
+    s.subspec 'Network' do |network|
+      network.source_files = 'RevanKits/Classes/Network/**/*.{h,m}'
+      network.dependency 'AFNetworking'
+      network.dependency 'MJExtension'
+    end
+    
+    s.subspec 'BaseMVC' do |bmvc|
+        bmvc.source_files = 'RevanKits/Classes/BaseMVC/**/*.{h,m}'
+        bmvc.resource_bundles = {
+            'BaseMVCSource' => ['RevanKits/Classes/BaseMVC/**/*.xib', 'RevanKits/Assets/**/*.xcassets']
+        }
+        bmvc.dependency 'MJRefresh'
+        bmvc.dependency 'RevanKits/Network'
+    end
+
+  #s.source_files = 'RevanKits/Classes/**/*'
   
   # s.resource_bundles = {
   #   'RevanKits' => ['RevanKits/Assets/*.png']
