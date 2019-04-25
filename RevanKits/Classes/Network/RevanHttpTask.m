@@ -6,6 +6,7 @@
 //
 
 #import "RevanHttpTask.h"
+#import "AFNetworking.h"
 #import <CommonCrypto/CommonCrypto.h>
 #import "NSString+RevanHttp.h"
 #import "RevanHttpENV.h"

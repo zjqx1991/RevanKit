@@ -6,8 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
-#import "RevanHttpResponse.h"
+#import "AFURLRequestSerialization.h"
+@class AFHTTPSessionManager;
+@class RevanHttpResponse;
 
 
 @interface RevanHttpManager : NSObject
