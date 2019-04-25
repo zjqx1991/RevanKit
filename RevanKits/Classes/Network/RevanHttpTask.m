@@ -134,6 +134,7 @@ taskResponse:(void (^)(RevanHttpResponse *response))aTaskResponse {
  @param block AFMultipartFormData协议
  @param aTaskResponse 回调
  */
+/*
 + (void)POST:(NSString *)URLString
   parameters:(NSDictionary *)param
 constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block
@@ -161,6 +162,7 @@ taskResponse:(void (^)(RevanHttpResponse *response))aTaskResponse {
         [self filterResponse:response urlString:URLString andPara:parameters];
     }];
 }
+*/
 
 #pragma mark *************** private Method ***************
 

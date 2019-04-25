@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFURLRequestSerialization.h"
+
 @class AFHTTPSessionManager;
 @class RevanHttpResponse;
 
@@ -23,10 +23,10 @@
                     parameters:(id)parameters
                   taskResponse:(void (^)(NSURLSessionDataTask *task, RevanHttpResponse *response))aTaskResponse;
 
-- (NSURLSessionDataTask *)POST:(NSString *)URLString
-                    parameters:(id)parameters
-     constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block
-                  taskResponse:(void (^)(NSURLSessionDataTask *task, RevanHttpResponse *response))aTaskResponse;
+//- (NSURLSessionDataTask *)POST:(NSString *)URLString
+//                    parameters:(id)parameters
+//     constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block
+//                  taskResponse:(void (^)(NSURLSessionDataTask *task, RevanHttpResponse *response))aTaskResponse;
 
 
 
