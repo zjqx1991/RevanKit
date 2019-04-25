@@ -25,7 +25,7 @@ RevanKits收集的是项目开发中必要的分类、常量、网络工具类�
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'RevanWang' => 'zjqx1991@163.com' }
-  s.source           = { :git => 'git@github.com:zjqx1991/RevanKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zjqx1991/RevanKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
