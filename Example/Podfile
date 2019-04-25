@@ -1,3 +1,8 @@
+# 这个是github上公有库的地址，没有这个，pod就不会去公有库查询，就不能下载公有库的东西
+source 'https://github.com/CocoaPods/Specs.git'
+#可以放多个source
+source 'git@github.com:zjqx1991/RevanKit.git'
+
 use_frameworks!
 
 platform :ios, '8.0'
