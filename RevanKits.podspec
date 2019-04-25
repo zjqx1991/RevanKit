@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 RevanKits收集的是项目开发中必要的分类、常量、网络工具类等等
                        DESC
 
-  s.homepage         = 'https://github.com/RevanWang/RevanKits'
+  s.homepage         = 'https://github.com/zjqx1991/RevanKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'RevanWang' => 'zjqx1991@163.com' }
