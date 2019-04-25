@@ -11,7 +11,7 @@
 #import "NSString+RevanHttp.h"
 #import "RevanHttpENV.h"
 #import "RevanHttpParameterConfig.h"
-#import "RevanHttpResponse.h"
+
 #import "RevanAppInfo.h"
 #import "RevanUserParameters.h"
 #import "AFURLRequestSerialization.h"

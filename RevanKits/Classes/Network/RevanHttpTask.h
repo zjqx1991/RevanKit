@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "RevanHttpResponse.h"
 @class RevanHttpResponse;
 @class RevanUserParameters;
 
