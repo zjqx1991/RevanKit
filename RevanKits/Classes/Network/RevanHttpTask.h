@@ -7,8 +7,10 @@
 
 #import <Foundation/Foundation.h>
 #import "RevanHttpResponse.h"
-@class RevanHttpResponse;
-@class RevanUserParameters;
+#import "RevanAppInfo.h"
+#import "RevanUserParameters.h"
+#import "AFURLRequestSerialization.h"
+#import "RevanHttpManager.h"
 
 #define KRevan_APPTokenPastDue @"KRevan_APPTokenPastDue"
 

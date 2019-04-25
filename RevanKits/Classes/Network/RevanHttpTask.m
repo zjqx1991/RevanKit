@@ -12,10 +12,6 @@
 #import "RevanHttpENV.h"
 #import "RevanHttpParameterConfig.h"
 
-#import "RevanAppInfo.h"
-#import "RevanUserParameters.h"
-#import "AFURLRequestSerialization.h"
-#import "RevanHttpManager.h"
 
 static NSString *RevanHttpTaskSignKey = @"3541917349470978669F5EE891BB107C";
 #define kOtherUrlSkipAppendKey @"skip_append_url"
