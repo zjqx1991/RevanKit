@@ -6,8 +6,6 @@
 //
 
 #import "RevanHttpManager.h"
-#import "AFNetworking.h"
-#import "RevanHttpResponse.h"
 #import "NSString+RevanHttp.h"
 
 @interface RevanHttpManager ()

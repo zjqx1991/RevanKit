@@ -6,9 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@class AFHTTPSessionManager;
-@class RevanHttpResponse;
+#import "AFNetworking.h"
+#import "RevanHttpResponse.h"
 
 
 @interface RevanHttpManager : NSObject
@@ -23,10 +22,10 @@
                     parameters:(id)parameters
                   taskResponse:(void (^)(NSURLSessionDataTask *task, RevanHttpResponse *response))aTaskResponse;
 
-//- (NSURLSessionDataTask *)POST:(NSString *)URLString
-//                    parameters:(id)parameters
-//     constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block
-//                  taskResponse:(void (^)(NSURLSessionDataTask *task, RevanHttpResponse *response))aTaskResponse;
+- (NSURLSessionDataTask *)POST:(NSString *)URLString
+                    parameters:(id)parameters
+     constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block
+                  taskResponse:(void (^)(NSURLSessionDataTask *task, RevanHttpResponse *response))aTaskResponse;
 
 
 

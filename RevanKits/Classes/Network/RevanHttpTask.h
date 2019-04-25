@@ -11,6 +11,7 @@
 #import "RevanUserParameters.h"
 #import "AFURLRequestSerialization.h"
 #import "RevanHttpManager.h"
+#import "AFNetworking.h"
 
 #define KRevan_APPTokenPastDue @"KRevan_APPTokenPastDue"
 
@@ -69,10 +70,10 @@ taskResponse:(void (^)(RevanHttpResponse *response))aTaskResponse;
  @param block AFMultipartFormData协议
  @param aTaskResponse 回调
  */
-//+ (void)POST:(NSString *)URLString
-//  parameters:(NSDictionary *)parameters
-//constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block
-//taskResponse:(void (^)(RevanHttpResponse *response))aTaskResponse;
++ (void)POST:(NSString *)URLString
+  parameters:(NSDictionary *)parameters
+constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block
+taskResponse:(void (^)(RevanHttpResponse *response))aTaskResponse;
 
 #pragma mark - 下载文件
 /**
