@@ -16,21 +16,21 @@ PODS:
     - AFNetworking/NSURLSession
   - MJExtension (3.0.16)
   - MJRefresh (3.1.16)
-  - RevanKits (2.0.9):
-    - RevanKits/Base (= 2.0.9)
-    - RevanKits/BaseMVC (= 2.0.9)
-    - RevanKits/Category (= 2.0.9)
-    - RevanKits/Network (= 2.0.9)
-    - RevanKits/Tool (= 2.0.9)
-  - RevanKits/Base (2.0.9)
-  - RevanKits/BaseMVC (2.0.9):
+  - RevanKits (2.1.0):
+    - RevanKits/Base (= 2.1.0)
+    - RevanKits/BaseMVC (= 2.1.0)
+    - RevanKits/Category (= 2.1.0)
+    - RevanKits/Network (= 2.1.0)
+    - RevanKits/Tool (= 2.1.0)
+  - RevanKits/Base (2.1.0)
+  - RevanKits/BaseMVC (2.1.0):
     - MJRefresh
     - RevanKits/Network
-  - RevanKits/Category (2.0.9)
-  - RevanKits/Network (2.0.9):
+  - RevanKits/Category (2.1.0)
+  - RevanKits/Network (2.1.0):
     - AFNetworking
     - MJExtension
-  - RevanKits/Tool (2.0.9)
+  - RevanKits/Tool (2.1.0)
 
 DEPENDENCIES:
   - RevanKits (from `../`)
@@ -49,7 +49,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
   MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
-  RevanKits: ad2196ddbecb89767707998e2682931920378ecd
+  RevanKits: 8b2ebb36c7db12a488517d0d5671343a44ddbb00
 
 PODFILE CHECKSUM: f098f483005bc37f4be948c3dab87d5e0900c86d
 

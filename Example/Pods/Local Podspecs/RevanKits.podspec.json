@@ -1,6 +1,6 @@
 {
   "name": "RevanKits",
-  "version": "2.0.9",
+  "version": "2.1.0",
   "summary": "A short description of RevanKits.",
   "description": "RevanKits收集的是项目开发中必要的分类、常量、网络工具类等等",
   "homepage": "https://github.com/zjqx1991/RevanKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zjqx1991/RevanKit.git",
-    "tag": "2.0.9"
+    "tag": "2.1.0"
   },
   "platforms": {
     "ios": "8.0"
